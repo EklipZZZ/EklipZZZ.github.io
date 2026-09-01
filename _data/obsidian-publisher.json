@@ -1,7 +1,7 @@
 {
   "version": 1,
   "generatedBy": "obsidian-github-pages-publisher",
-  "updatedAt": "2026-09-01 13:05:13",
+  "updatedAt": "2026-09-01 13:14:41",
   "notes": {
     "论文/E2O-论文整理版.md": {
       "sourcePath": "论文/E2O-论文整理版.md",
@@ -48,6 +48,18 @@
         "c2cff2301d5b324932eda80d6b7a9e89447634f800b572dc22276339693c35fb",
         "e2121db8c7255ffd19fee277db0c514b27283ca626935b07cd1fa71ada89f465"
       ]
+    },
+    "论文/MaskCLIP无监督分割实战.md": {
+      "sourcePath": "论文/MaskCLIP无监督分割实战.md",
+      "title": "MaskCLIP无监督分割实战",
+      "targetId": "code",
+      "remotePath": "_posts/2026-08-12-maskclip无监督分割实战.md",
+      "permalink": "/dai-ma-bi-ji/maskclip无监督分割实战/",
+      "slug": "maskclip无监督分割实战",
+      "publishedAt": "2026-08-12 17:22:09",
+      "updatedAt": "2026-09-01 13:14:41",
+      "contentHash": "d8ef4e3bd23ae7be4ae01ec8a07f378189a7af23925d5400e6c2261ea70d9d31",
+      "assetHashes": []
     },
     "论文/TextRegion-整理版.md": {
       "sourcePath": "论文/TextRegion-整理版.md",
