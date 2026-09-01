@@ -6,7 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title | default: "我的主页" }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  </head>
+  
+<!-- obsidian-github-pages-publisher:v1 -->
+<link rel="stylesheet" href="{{ '/assets/css/obsidian-publisher.css' | relative_url }}">
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    svg: { fontCache: 'global' }
+  };
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script defer src="{{ '/assets/js/obsidian-publisher-render.js' | relative_url }}"></script>
+<!-- /obsidian-github-pages-publisher:v1 -->
+</head>
   <body style="
     margin: 0 !important;
     padding: 0 !important;

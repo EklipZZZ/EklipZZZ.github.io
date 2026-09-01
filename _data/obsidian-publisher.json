@@ -1,0 +1,186 @@
+{
+  "version": 1,
+  "generatedBy": "obsidian-github-pages-publisher",
+  "updatedAt": "2026-09-01 13:05:13",
+  "notes": {
+    "论文/E2O-论文整理版.md": {
+      "sourcePath": "论文/E2O-论文整理版.md",
+      "title": "Earth2Ocean（E2O）论文整理版",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-09-01-e2o-论文.md",
+      "permalink": "/lun-wen-bi-ji/e2o-论文/",
+      "slug": "e2o-论文",
+      "publishedAt": "2026-09-01 13:05:13",
+      "updatedAt": "2026-09-01 13:05:13",
+      "contentHash": "8c458fb52f3bc2491619024a3552034c2b91040f310a662515bfecfcaf178636",
+      "assetHashes": [
+        "1fe471b005cefdebd5368280eb74b92b3da946fc1b1afa4575d320e55d7d27e3"
+      ]
+    },
+    "论文/E2O-水下提示词库.md": {
+      "sourcePath": "论文/E2O-水下提示词库.md",
+      "title": "E2O 水下提示词库",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-09-01-e2o-水下提示词库.md",
+      "permalink": "/lun-wen-bi-ji/e2o-水下提示词库/",
+      "slug": "e2o-水下提示词库",
+      "publishedAt": "2026-09-01 13:05:13",
+      "updatedAt": "2026-09-01 13:05:13",
+      "contentHash": "cc20438b97e02398465b79cb7c28d83d7a74db7972fd6d96d4b500534276f386",
+      "assetHashes": []
+    },
+    "论文/FDAM-整理版.md": {
+      "sourcePath": "论文/FDAM-整理版.md",
+      "title": "FDAM 论文整理版",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-09-01-fdam.md",
+      "permalink": "/lun-wen-bi-ji/fdam/",
+      "slug": "fdam",
+      "publishedAt": "2026-09-01 13:05:13",
+      "updatedAt": "2026-09-01 13:05:13",
+      "contentHash": "389b370d2d25184f4a183fdc6610fd656b443327bab2243c639937df6da1e76c",
+      "assetHashes": [
+        "4a3050fa87d333850c5fe9d1d06c7d6b230a906509d4ae34836174ff7ac52b29",
+        "585cb1f9f2b812b90fcc5c096490df012f15c2633cd397425646c4162e49f07d",
+        "798c20f3ce555feb0ee09549c041dc23920a07937eea4b9a3698b270cf92c0b6",
+        "b92783e6aa97e32b0b517e7abc08db791d89b7e263b8c595244b337191e860a2",
+        "bf300de232ce365cc0d7cbd54870e7b68ecee9805a8f6483f39d2a3117c76d85",
+        "c2cff2301d5b324932eda80d6b7a9e89447634f800b572dc22276339693c35fb",
+        "e2121db8c7255ffd19fee277db0c514b27283ca626935b07cd1fa71ada89f465"
+      ]
+    },
+    "论文/TextRegion-整理版.md": {
+      "sourcePath": "论文/TextRegion-整理版.md",
+      "title": "TextRegion 论文整理版",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-09-01-textregion.md",
+      "permalink": "/lun-wen-bi-ji/textregion/",
+      "slug": "textregion",
+      "publishedAt": "2026-09-01 13:05:13",
+      "updatedAt": "2026-09-01 13:05:13",
+      "contentHash": "633cbd0c9d1a4dc79d156e34122089623e126d6b6b3d4979c465ba5bd0e2fb96",
+      "assetHashes": [
+        "6706f53a5e4af5c4bca38bb8f8615c5e984fb4cd86309ffb8e6da11d8d6c5620"
+      ]
+    },
+    "论文/Underwater-OVSS-研究导航.md": {
+      "sourcePath": "论文/Underwater-OVSS-研究导航.md",
+      "title": "WaveDN 论文整理版",
+      "targetId": "navigation",
+      "remotePath": "pages/underwater-ovss-research-navigation.md",
+      "permalink": "/lun-wen-bi-ji/underwater-ovss/",
+      "slug": "underwater-ovss",
+      "publishedAt": "2026-09-01 13:05:13",
+      "updatedAt": "2026-09-01 13:05:13",
+      "contentHash": "5f7fcca87baa70bcfbce73673150414ac26ed59ef78a73e9e26896af2a7c3c32",
+      "assetHashes": [
+        "40eaf883020469c681f13526ec75f9d450bfa75aa9e4210a936c9134e8fb2d83",
+        "6706f53a5e4af5c4bca38bb8f8615c5e984fb4cd86309ffb8e6da11d8d6c5620",
+        "a54e7fc74b067683318ef5346e760d70ab559036e16798b17714e7b8c9101ae4",
+        "b4af4801b2d0d5609d0d68c0dea17d7de091ed089382940971f047e7142a6c47"
+      ]
+    },
+    "论文/WaveDN-整理版.md": {
+      "sourcePath": "论文/WaveDN-整理版.md",
+      "title": "WaveDN 论文整理版",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-09-01-wavedn.md",
+      "permalink": "/lun-wen-bi-ji/wavedn/",
+      "slug": "wavedn",
+      "publishedAt": "2026-09-01 13:05:13",
+      "updatedAt": "2026-09-01 13:05:13",
+      "contentHash": "7fcb6deb97866bf1431503bc1ee213dde8356a47db65987f65ec91c765a71fbc",
+      "assetHashes": [
+        "40eaf883020469c681f13526ec75f9d450bfa75aa9e4210a936c9134e8fb2d83",
+        "a54e7fc74b067683318ef5346e760d70ab559036e16798b17714e7b8c9101ae4",
+        "b4af4801b2d0d5609d0d68c0dea17d7de091ed089382940971f047e7142a6c47"
+      ]
+    }
+  },
+  "assets": {
+    "1fe471b005cefdebd5368280eb74b92b3da946fc1b1afa4575d320e55d7d27e3": {
+      "sha256": "1fe471b005cefdebd5368280eb74b92b3da946fc1b1afa4575d320e55d7d27e3",
+      "remotePath": "assets/images/obsidian/1fe471b005cefdebd5368280eb74b92b.png",
+      "sourcePath": "Pasted image 20260830231543.png",
+      "extension": "png",
+      "updatedAt": "2026-09-01 13:05:13"
+    },
+    "40eaf883020469c681f13526ec75f9d450bfa75aa9e4210a936c9134e8fb2d83": {
+      "sha256": "40eaf883020469c681f13526ec75f9d450bfa75aa9e4210a936c9134e8fb2d83",
+      "remotePath": "assets/images/obsidian/40eaf883020469c681f13526ec75f9d4.png",
+      "sourcePath": "Pasted image 20260830221904.png",
+      "extension": "png",
+      "updatedAt": "2026-09-01 13:05:13"
+    },
+    "4a3050fa87d333850c5fe9d1d06c7d6b230a906509d4ae34836174ff7ac52b29": {
+      "sha256": "4a3050fa87d333850c5fe9d1d06c7d6b230a906509d4ae34836174ff7ac52b29",
+      "remotePath": "assets/images/obsidian/4a3050fa87d333850c5fe9d1d06c7d6b.png",
+      "sourcePath": "Pasted image 20260901032745.png",
+      "extension": "png",
+      "updatedAt": "2026-09-01 13:05:13"
+    },
+    "585cb1f9f2b812b90fcc5c096490df012f15c2633cd397425646c4162e49f07d": {
+      "sha256": "585cb1f9f2b812b90fcc5c096490df012f15c2633cd397425646c4162e49f07d",
+      "remotePath": "assets/images/obsidian/585cb1f9f2b812b90fcc5c096490df01.png",
+      "sourcePath": "Pasted image 20260901033028.png",
+      "extension": "png",
+      "updatedAt": "2026-09-01 13:05:13"
+    },
+    "6706f53a5e4af5c4bca38bb8f8615c5e984fb4cd86309ffb8e6da11d8d6c5620": {
+      "sha256": "6706f53a5e4af5c4bca38bb8f8615c5e984fb4cd86309ffb8e6da11d8d6c5620",
+      "remotePath": "assets/images/obsidian/6706f53a5e4af5c4bca38bb8f8615c5e.png",
+      "sourcePath": "Pasted image 20260830222056.png",
+      "extension": "png",
+      "updatedAt": "2026-09-01 13:05:13"
+    },
+    "798c20f3ce555feb0ee09549c041dc23920a07937eea4b9a3698b270cf92c0b6": {
+      "sha256": "798c20f3ce555feb0ee09549c041dc23920a07937eea4b9a3698b270cf92c0b6",
+      "remotePath": "assets/images/obsidian/798c20f3ce555feb0ee09549c041dc23.png",
+      "sourcePath": "Pasted image 20260901032944.png",
+      "extension": "png",
+      "updatedAt": "2026-09-01 13:05:13"
+    },
+    "a54e7fc74b067683318ef5346e760d70ab559036e16798b17714e7b8c9101ae4": {
+      "sha256": "a54e7fc74b067683318ef5346e760d70ab559036e16798b17714e7b8c9101ae4",
+      "remotePath": "assets/images/obsidian/a54e7fc74b067683318ef5346e760d70.png",
+      "sourcePath": "Pasted image 20260830221742.png",
+      "extension": "png",
+      "updatedAt": "2026-09-01 13:05:13"
+    },
+    "b4af4801b2d0d5609d0d68c0dea17d7de091ed089382940971f047e7142a6c47": {
+      "sha256": "b4af4801b2d0d5609d0d68c0dea17d7de091ed089382940971f047e7142a6c47",
+      "remotePath": "assets/images/obsidian/b4af4801b2d0d5609d0d68c0dea17d7d.png",
+      "sourcePath": "Pasted image 20260830221845.png",
+      "extension": "png",
+      "updatedAt": "2026-09-01 13:05:13"
+    },
+    "b92783e6aa97e32b0b517e7abc08db791d89b7e263b8c595244b337191e860a2": {
+      "sha256": "b92783e6aa97e32b0b517e7abc08db791d89b7e263b8c595244b337191e860a2",
+      "remotePath": "assets/images/obsidian/b92783e6aa97e32b0b517e7abc08db79.png",
+      "sourcePath": "Pasted image 20260901033358.png",
+      "extension": "png",
+      "updatedAt": "2026-09-01 13:05:13"
+    },
+    "bf300de232ce365cc0d7cbd54870e7b68ecee9805a8f6483f39d2a3117c76d85": {
+      "sha256": "bf300de232ce365cc0d7cbd54870e7b68ecee9805a8f6483f39d2a3117c76d85",
+      "remotePath": "assets/images/obsidian/bf300de232ce365cc0d7cbd54870e7b6.png",
+      "sourcePath": "Pasted image 20260901033334.png",
+      "extension": "png",
+      "updatedAt": "2026-09-01 13:05:13"
+    },
+    "c2cff2301d5b324932eda80d6b7a9e89447634f800b572dc22276339693c35fb": {
+      "sha256": "c2cff2301d5b324932eda80d6b7a9e89447634f800b572dc22276339693c35fb",
+      "remotePath": "assets/images/obsidian/c2cff2301d5b324932eda80d6b7a9e89.png",
+      "sourcePath": "Pasted image 20260901033305.png",
+      "extension": "png",
+      "updatedAt": "2026-09-01 13:05:13"
+    },
+    "e2121db8c7255ffd19fee277db0c514b27283ca626935b07cd1fa71ada89f465": {
+      "sha256": "e2121db8c7255ffd19fee277db0c514b27283ca626935b07cd1fa71ada89f465",
+      "remotePath": "assets/images/obsidian/e2121db8c7255ffd19fee277db0c514b.png",
+      "sourcePath": "Pasted image 20260901032853.png",
+      "extension": "png",
+      "updatedAt": "2026-09-01 13:05:13"
+    }
+  }
+}
