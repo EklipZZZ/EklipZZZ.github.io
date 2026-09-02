@@ -1,8 +1,23 @@
 {
   "version": 1,
   "generatedBy": "obsidian-github-pages-publisher",
-  "updatedAt": "2026-09-02 11:35:28",
+  "updatedAt": "2026-09-02 16:21:16",
   "notes": {
+    "论文/DeCLIP-整理版.md": {
+      "sourcePath": "论文/DeCLIP-整理版.md",
+      "title": "DeCLIP 论文整理版",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-09-02-declip.md",
+      "permalink": "/lun-wen-bi-ji/declip/",
+      "slug": "declip",
+      "publishedAt": "2026-09-02 16:21:16",
+      "updatedAt": "2026-09-02 16:21:16",
+      "contentHash": "66130a4df620d0bf24e9e2e043d9c7de3e55fd99fe479b72100a2d43ef19a203",
+      "assetHashes": [
+        "0cf36c0b6bf2bcb73e5bac63392f265af349ded882d8c1e3d2f07e0cdb972b60",
+        "3a82af7387749e1897223961053fd50e98eee9fd7c87ef956ef4d2333b04a67b"
+      ]
+    },
     "论文/E2O-论文整理版.md": {
       "sourcePath": "论文/E2O-论文整理版.md",
       "title": "Earth2Ocean（E2O）论文整理版",
@@ -127,12 +142,26 @@
     }
   },
   "assets": {
+    "0cf36c0b6bf2bcb73e5bac63392f265af349ded882d8c1e3d2f07e0cdb972b60": {
+      "sha256": "0cf36c0b6bf2bcb73e5bac63392f265af349ded882d8c1e3d2f07e0cdb972b60",
+      "remotePath": "assets/images/obsidian/0cf36c0b6bf2bcb73e5bac63392f265a.png",
+      "sourcePath": "Pasted image 20260901130731.png",
+      "extension": "png",
+      "updatedAt": "2026-09-02 16:21:16"
+    },
     "1fe471b005cefdebd5368280eb74b92b3da946fc1b1afa4575d320e55d7d27e3": {
       "sha256": "1fe471b005cefdebd5368280eb74b92b3da946fc1b1afa4575d320e55d7d27e3",
       "remotePath": "assets/images/obsidian/1fe471b005cefdebd5368280eb74b92b.png",
       "sourcePath": "Pasted image 20260830231543.png",
       "extension": "png",
       "updatedAt": "2026-09-01 13:05:13"
+    },
+    "3a82af7387749e1897223961053fd50e98eee9fd7c87ef956ef4d2333b04a67b": {
+      "sha256": "3a82af7387749e1897223961053fd50e98eee9fd7c87ef956ef4d2333b04a67b",
+      "remotePath": "assets/images/obsidian/3a82af7387749e1897223961053fd50e.png",
+      "sourcePath": "Pasted image 20260901130743.png",
+      "extension": "png",
+      "updatedAt": "2026-09-02 16:21:16"
     },
     "40eaf883020469c681f13526ec75f9d450bfa75aa9e4210a936c9134e8fb2d83": {
       "sha256": "40eaf883020469c681f13526ec75f9d450bfa75aa9e4210a936c9134e8fb2d83",
