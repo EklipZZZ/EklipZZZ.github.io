@@ -1,7 +1,7 @@
 {
   "version": 1,
   "generatedBy": "obsidian-github-pages-publisher",
-  "updatedAt": "2026-09-01 13:14:41",
+  "updatedAt": "2026-09-02 11:35:28",
   "notes": {
     "论文/E2O-论文整理版.md": {
       "sourcePath": "论文/E2O-论文整理版.md",
@@ -61,6 +61,23 @@
       "contentHash": "d8ef4e3bd23ae7be4ae01ec8a07f378189a7af23925d5400e6c2261ea70d9d31",
       "assetHashes": []
     },
+    "论文/SynCLIP-整理版.md": {
+      "sourcePath": "论文/SynCLIP-整理版.md",
+      "title": "SynCLIP 论文整理版",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-09-02-synclip.md",
+      "permalink": "/lun-wen-bi-ji/synclip/",
+      "slug": "synclip",
+      "publishedAt": "2026-09-02 11:35:28",
+      "updatedAt": "2026-09-02 11:35:28",
+      "contentHash": "65e5bfa19a838e81b68e172a48cc8b01f112e092a83e022859d767a0749c2761",
+      "assetHashes": [
+        "4e629e1901dc6ee14e387ad823ed720ca0d694dbc31b2ba3af18052f7da9ea14",
+        "667a266e58c2402932fe98f3d3231ae21026f6af7e551a5704af15ed28af3584",
+        "90d9af5c2f9a252e8c40da8269ed0adf9dba1b3140e854102ff28c3a5957ae01",
+        "e353cc081bf123853e329136ff66c0734f7837d35c44461d3f231af830b37def"
+      ]
+    },
     "论文/TextRegion-整理版.md": {
       "sourcePath": "论文/TextRegion-整理版.md",
       "title": "TextRegion 论文整理版",
@@ -69,8 +86,8 @@
       "permalink": "/lun-wen-bi-ji/textregion/",
       "slug": "textregion",
       "publishedAt": "2026-09-01 13:05:13",
-      "updatedAt": "2026-09-01 13:05:13",
-      "contentHash": "633cbd0c9d1a4dc79d156e34122089623e126d6b6b3d4979c465ba5bd0e2fb96",
+      "updatedAt": "2026-09-02 11:35:28",
+      "contentHash": "db85b46f1ec95d5028049f4d205585f5be9d20e01573a4b44a606de73c94cd43",
       "assetHashes": [
         "6706f53a5e4af5c4bca38bb8f8615c5e984fb4cd86309ffb8e6da11d8d6c5620"
       ]
@@ -131,12 +148,26 @@
       "extension": "png",
       "updatedAt": "2026-09-01 13:05:13"
     },
+    "4e629e1901dc6ee14e387ad823ed720ca0d694dbc31b2ba3af18052f7da9ea14": {
+      "sha256": "4e629e1901dc6ee14e387ad823ed720ca0d694dbc31b2ba3af18052f7da9ea14",
+      "remotePath": "assets/images/obsidian/4e629e1901dc6ee14e387ad823ed720c.png",
+      "sourcePath": "Pasted image 20260902191653.png",
+      "extension": "png",
+      "updatedAt": "2026-09-02 11:35:28"
+    },
     "585cb1f9f2b812b90fcc5c096490df012f15c2633cd397425646c4162e49f07d": {
       "sha256": "585cb1f9f2b812b90fcc5c096490df012f15c2633cd397425646c4162e49f07d",
       "remotePath": "assets/images/obsidian/585cb1f9f2b812b90fcc5c096490df01.png",
       "sourcePath": "Pasted image 20260901033028.png",
       "extension": "png",
       "updatedAt": "2026-09-01 13:05:13"
+    },
+    "667a266e58c2402932fe98f3d3231ae21026f6af7e551a5704af15ed28af3584": {
+      "sha256": "667a266e58c2402932fe98f3d3231ae21026f6af7e551a5704af15ed28af3584",
+      "remotePath": "assets/images/obsidian/667a266e58c2402932fe98f3d3231ae2.png",
+      "sourcePath": "Pasted image 20260901035251.png",
+      "extension": "png",
+      "updatedAt": "2026-09-02 11:35:28"
     },
     "6706f53a5e4af5c4bca38bb8f8615c5e984fb4cd86309ffb8e6da11d8d6c5620": {
       "sha256": "6706f53a5e4af5c4bca38bb8f8615c5e984fb4cd86309ffb8e6da11d8d6c5620",
@@ -151,6 +182,13 @@
       "sourcePath": "Pasted image 20260901032944.png",
       "extension": "png",
       "updatedAt": "2026-09-01 13:05:13"
+    },
+    "90d9af5c2f9a252e8c40da8269ed0adf9dba1b3140e854102ff28c3a5957ae01": {
+      "sha256": "90d9af5c2f9a252e8c40da8269ed0adf9dba1b3140e854102ff28c3a5957ae01",
+      "remotePath": "assets/images/obsidian/90d9af5c2f9a252e8c40da8269ed0adf.png",
+      "sourcePath": "Pasted image 20260902191511.png",
+      "extension": "png",
+      "updatedAt": "2026-09-02 11:35:28"
     },
     "a54e7fc74b067683318ef5346e760d70ab559036e16798b17714e7b8c9101ae4": {
       "sha256": "a54e7fc74b067683318ef5346e760d70ab559036e16798b17714e7b8c9101ae4",
@@ -193,6 +231,13 @@
       "sourcePath": "Pasted image 20260901032853.png",
       "extension": "png",
       "updatedAt": "2026-09-01 13:05:13"
+    },
+    "e353cc081bf123853e329136ff66c0734f7837d35c44461d3f231af830b37def": {
+      "sha256": "e353cc081bf123853e329136ff66c0734f7837d35c44461d3f231af830b37def",
+      "remotePath": "assets/images/obsidian/e353cc081bf123853e329136ff66c073.png",
+      "sourcePath": "Pasted image 20260902191727.png",
+      "extension": "png",
+      "updatedAt": "2026-09-02 11:35:28"
     }
   }
 }

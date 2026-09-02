@@ -330,3 +330,14 @@ TextRegion 同时讨论：
 ### Hypothesis
 
 - E2O 的几何传播和 TextRegion 的区域池化可能互补，建议采用单变量消融。
+
+## 相关论文
+
+根据 TextRegion 原文的 Related Work 和 Table 1，这些是论文明确提到或直接比较、且 Vault 中已有对应笔记的强相关方法：
+
+- MaskCLIP：TextRegion 讨论的 training-free 开放词汇分割先行方法，也是 Table 1 的直接比较基线。
+- SCLIP：TextRegion Related Work 和 Table 1 中的 training-free 分割基线。
+- ClearCLIP：TextRegion Related Work 中的 training-free 开放词汇分割方法。
+- ProxyCLIP：TextRegion Related Work 和 Table 1 中的直接比较方法。
+- Trident：TextRegion Related Work 和 Table 1 中的强 training-free 分割基线。
+- SAM：TextRegion 依赖 SAM2 生成区域 mask，是方法中的核心区域生成组件。
