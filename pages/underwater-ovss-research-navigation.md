@@ -771,7 +771,7 @@ flowchart LR
     FDAM[FDAM / 训练型域适配] -. 作为训练型对照 .-> E2O
 ```
 
-## 四篇重点材料的关系
+## 五篇重点材料的关系
 
 | 材料 | 直接解决的问题 | 核心操作 | 在研究地图中的位置 |
 |---|---|---|---|
@@ -779,6 +779,7 @@ flowchart LR
 | [TextRegion-整理版](/lun-wen-bi-ji/textregion/) | 全局 CLIP 难以提供可靠的区域级语义 | SAM2/SLIC 区域、mask pooling、多尺度 patch token | 区域级对照与潜在扩展 |
 | [WaveDN-整理版](/lun-wen-bi-ji/wavedn/) | 测试分布与预训练 embedding 分布不匹配 | DWT、层级修正、IDWT、相似度计算 | 全局 embedding 测试时增强思路 |
 | [FDAM-整理版](/lun-wen-bi-ji/fdam/) | 深层 Transformer 的频率消失与过平滑 | AttInv 互补高通注意力，FreqScale 动态频谱重加权 | 训练型机制来源与频率方向对照 |
+| [SynCLIP-整理版](/lun-wen-bi-ji/synclip/) | 同义词导致密集空间响应不一致 | SSA 语义空间对齐，SAR 结合 DINOv2 细化空间目标 | 推理时 prompt consensus 的训练型来源 |
 
 关键区分：
 
@@ -792,7 +793,8 @@ flowchart LR
 - E2O：[E2O-论文整理版](/lun-wen-bi-ji/e2o-论文/)；水下提示词：[E2O-水下提示词库](/lun-wen-bi-ji/e2o-水下提示词库/)
 - TextRegion：[TextRegion-整理版](/lun-wen-bi-ji/textregion/)
 - WaveDN：[WaveDN-整理版](/lun-wen-bi-ji/wavedn/)
-- FDAm：[FDAM-整理版](/lun-wen-bi-ji/fdam/)；其他关联方法：MaskCLIP复现、ProxyCLIP、SCLIP、CorrCLIP、Trident
+- FDAm：[FDAM-整理版](/lun-wen-bi-ji/fdam/)；其他关联方法：[MaskCLIP无监督分割实战](/dai-ma-bi-ji/maskclip无监督分割实战/)、ProxyCLIP、SCLIP、CorrCLIP、Trident
+- SynCLIP：[SynCLIP-整理版](/lun-wen-bi-ji/synclip/)；直接相关底座：DeCLIP、CLIP、DINO
 
 ## 证据标记
 
