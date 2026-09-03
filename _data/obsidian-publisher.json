@@ -1,7 +1,7 @@
 {
   "version": 1,
   "generatedBy": "obsidian-github-pages-publisher",
-  "updatedAt": "2026-09-02 16:24:08",
+  "updatedAt": "2026-09-03 17:22:16",
   "notes": {
     "论文/DeCLIP-整理版.md": {
       "sourcePath": "论文/DeCLIP-整理版.md",
@@ -11,11 +11,12 @@
       "permalink": "/lun-wen-bi-ji/declip/",
       "slug": "declip",
       "publishedAt": "2026-09-02 16:21:16",
-      "updatedAt": "2026-09-02 16:24:08",
-      "contentHash": "128259576908e990fdb8cbdea430eb9343d65ad9bc2b4dad9592ee6baf3c6e28",
+      "updatedAt": "2026-09-03 17:22:16",
+      "contentHash": "16ec6785e28c83483e41369fa3ddc7fee214d9f56bef9685d3b4020115caadbb",
       "assetHashes": [
-        "0cf36c0b6bf2bcb73e5bac63392f265af349ded882d8c1e3d2f07e0cdb972b60",
-        "3a82af7387749e1897223961053fd50e98eee9fd7c87ef956ef4d2333b04a67b"
+        "960971f02f5de99ebe34ef76973c0ef7d42676672cf9cce8c2c3209fe1a16271",
+        "cae428e51e3171b329b948605b6f726780c6c6e88df798e12750784a2fdff4f4",
+        "f2e22401d2d8fce74428b2f14556c2c1999e329aab2b333af6583972e726b4fb"
       ]
     },
     "论文/E2O-论文整理版.md": {
@@ -219,6 +220,13 @@
       "extension": "png",
       "updatedAt": "2026-09-02 11:35:28"
     },
+    "960971f02f5de99ebe34ef76973c0ef7d42676672cf9cce8c2c3209fe1a16271": {
+      "sha256": "960971f02f5de99ebe34ef76973c0ef7d42676672cf9cce8c2c3209fe1a16271",
+      "remotePath": "assets/images/obsidian/960971f02f5de99ebe34ef76973c0ef7.png",
+      "sourcePath": "Pasted image 20260903005230.png",
+      "extension": "png",
+      "updatedAt": "2026-09-03 17:22:16"
+    },
     "a54e7fc74b067683318ef5346e760d70ab559036e16798b17714e7b8c9101ae4": {
       "sha256": "a54e7fc74b067683318ef5346e760d70ab559036e16798b17714e7b8c9101ae4",
       "remotePath": "assets/images/obsidian/a54e7fc74b067683318ef5346e760d70.png",
@@ -254,6 +262,13 @@
       "extension": "png",
       "updatedAt": "2026-09-01 13:05:13"
     },
+    "cae428e51e3171b329b948605b6f726780c6c6e88df798e12750784a2fdff4f4": {
+      "sha256": "cae428e51e3171b329b948605b6f726780c6c6e88df798e12750784a2fdff4f4",
+      "remotePath": "assets/images/obsidian/cae428e51e3171b329b948605b6f7267.png",
+      "sourcePath": "Pasted image 20260903005351.png",
+      "extension": "png",
+      "updatedAt": "2026-09-03 17:22:16"
+    },
     "e2121db8c7255ffd19fee277db0c514b27283ca626935b07cd1fa71ada89f465": {
       "sha256": "e2121db8c7255ffd19fee277db0c514b27283ca626935b07cd1fa71ada89f465",
       "remotePath": "assets/images/obsidian/e2121db8c7255ffd19fee277db0c514b.png",
@@ -267,6 +282,13 @@
       "sourcePath": "Pasted image 20260902191727.png",
       "extension": "png",
       "updatedAt": "2026-09-02 11:35:28"
+    },
+    "f2e22401d2d8fce74428b2f14556c2c1999e329aab2b333af6583972e726b4fb": {
+      "sha256": "f2e22401d2d8fce74428b2f14556c2c1999e329aab2b333af6583972e726b4fb",
+      "remotePath": "assets/images/obsidian/f2e22401d2d8fce74428b2f14556c2c1.png",
+      "sourcePath": "Pasted image 20260903005140.png",
+      "extension": "png",
+      "updatedAt": "2026-09-03 17:22:16"
     }
   }
 }
