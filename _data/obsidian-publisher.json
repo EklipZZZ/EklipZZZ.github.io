@@ -1,7 +1,7 @@
 {
   "version": 1,
   "generatedBy": "obsidian-github-pages-publisher",
-  "updatedAt": "2026-09-06 14:51:37",
+  "updatedAt": "2026-09-06 14:52:37",
   "notes": {
     "论文/DeCLIP-整理版.md": {
       "sourcePath": "论文/DeCLIP-整理版.md",
@@ -36,13 +36,13 @@
     "论文/E2O-水下提示词库.md": {
       "sourcePath": "论文/E2O-水下提示词库.md",
       "title": "E2O 水下提示词库",
-      "targetId": "paper",
+      "targetId": "code",
       "remotePath": "_posts/2026-09-01-e2o-水下提示词库.md",
-      "permalink": "/lun-wen-bi-ji/e2o-水下提示词库/",
+      "permalink": "/dai-ma-bi-ji/e2o-水下提示词库/",
       "slug": "e2o-水下提示词库",
       "publishedAt": "2026-09-01 13:05:13",
-      "updatedAt": "2026-09-01 13:05:13",
-      "contentHash": "cc20438b97e02398465b79cb7c28d83d7a74db7972fd6d96d4b500534276f386",
+      "updatedAt": "2026-09-06 14:52:37",
+      "contentHash": "9198addba9b8621b4e3fe7327920e439754f01ad8bba84e4b3b0f0895de90284",
       "assetHashes": []
     },
     "论文/E2O-整理版.md": {
@@ -58,6 +58,30 @@
       "assetHashes": [
         "1fe471b005cefdebd5368280eb74b92b3da946fc1b1afa4575d320e55d7d27e3"
       ]
+    },
+    "论文/E2O复现流程记录.md": {
+      "sourcePath": "论文/E2O复现流程记录.md",
+      "title": "E2O复现流程记录",
+      "targetId": "code",
+      "remotePath": "_posts/2026-09-06-e2o复现流程记录.md",
+      "permalink": "/dai-ma-bi-ji/e2o复现流程记录/",
+      "slug": "e2o复现流程记录",
+      "publishedAt": "2026-09-06 14:52:37",
+      "updatedAt": "2026-09-06 14:52:37",
+      "contentHash": "9c7ef25b666bcf8472078ad233ca18af64612478b49ff47903f764c4d0193cb8",
+      "assetHashes": []
+    },
+    "论文/E2O论文复现全面总结.md": {
+      "sourcePath": "论文/E2O论文复现全面总结.md",
+      "title": "E2O论文复现全面总结",
+      "targetId": "code",
+      "remotePath": "_posts/2026-09-06-e2o论文复现全面总结.md",
+      "permalink": "/dai-ma-bi-ji/e2o论文复现全面总结/",
+      "slug": "e2o论文复现全面总结",
+      "publishedAt": "2026-09-06 14:52:37",
+      "updatedAt": "2026-09-06 14:52:37",
+      "contentHash": "9929851f580d00e942bfc69ed5a510f1f79b1e21efbfcb0f7051d0adda81aa50",
+      "assetHashes": []
     },
     "论文/FDAM-整理版.md": {
       "sourcePath": "论文/FDAM-整理版.md",
@@ -87,8 +111,8 @@
       "permalink": "/dai-ma-bi-ji/maskclip无监督分割实战/",
       "slug": "maskclip无监督分割实战",
       "publishedAt": "2026-08-12 17:22:09",
-      "updatedAt": "2026-09-01 13:14:41",
-      "contentHash": "d8ef4e3bd23ae7be4ae01ec8a07f378189a7af23925d5400e6c2261ea70d9d31",
+      "updatedAt": "2026-09-06 14:52:37",
+      "contentHash": "5a2f5c4d00cac3970cd3b837d5faad476cc330b6b62e65d8ecb196049e4a88d6",
       "assetHashes": []
     },
     "论文/SynCLIP-整理版.md": {
