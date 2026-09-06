@@ -1,7 +1,7 @@
 {
   "version": 1,
   "generatedBy": "obsidian-github-pages-publisher",
-  "updatedAt": "2026-09-03 17:22:16",
+  "updatedAt": "2026-09-06 14:51:37",
   "notes": {
     "论文/DeCLIP-整理版.md": {
       "sourcePath": "论文/DeCLIP-整理版.md",
@@ -45,6 +45,20 @@
       "contentHash": "cc20438b97e02398465b79cb7c28d83d7a74db7972fd6d96d4b500534276f386",
       "assetHashes": []
     },
+    "论文/E2O-整理版.md": {
+      "sourcePath": "论文/E2O-整理版.md",
+      "title": "Earth2Ocean（E2O）论文整理版",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-09-06-e2o.md",
+      "permalink": "/lun-wen-bi-ji/e2o/",
+      "slug": "e2o",
+      "publishedAt": "2026-09-06 14:51:37",
+      "updatedAt": "2026-09-06 14:51:37",
+      "contentHash": "e9bf38afdd0826cdc176418066a302276e78a85f577dda2b1ebd7184cf16c547",
+      "assetHashes": [
+        "1fe471b005cefdebd5368280eb74b92b3da946fc1b1afa4575d320e55d7d27e3"
+      ]
+    },
     "论文/FDAM-整理版.md": {
       "sourcePath": "论文/FDAM-整理版.md",
       "title": "FDAM 论文整理版",
@@ -53,8 +67,8 @@
       "permalink": "/lun-wen-bi-ji/fdam/",
       "slug": "fdam",
       "publishedAt": "2026-09-01 13:05:13",
-      "updatedAt": "2026-09-02 16:24:08",
-      "contentHash": "0644ceef80c381022f959a2df0b0d294af9ea3102045f3b8554e6f3b7063320e",
+      "updatedAt": "2026-09-06 14:51:37",
+      "contentHash": "2542316ad25275afa5a1fa1e7854558b8e4a380f8b3d1aa60ed962e3224da20f",
       "assetHashes": [
         "4a3050fa87d333850c5fe9d1d06c7d6b230a906509d4ae34836174ff7ac52b29",
         "585cb1f9f2b812b90fcc5c096490df012f15c2633cd397425646c4162e49f07d",
@@ -85,8 +99,8 @@
       "permalink": "/lun-wen-bi-ji/synclip/",
       "slug": "synclip",
       "publishedAt": "2026-09-02 11:35:28",
-      "updatedAt": "2026-09-02 11:35:28",
-      "contentHash": "65e5bfa19a838e81b68e172a48cc8b01f112e092a83e022859d767a0749c2761",
+      "updatedAt": "2026-09-06 14:51:37",
+      "contentHash": "60f256785bf38794b3fa8d068ab199ddb9800bdc915f60d42d0f59ee09bc312a",
       "assetHashes": [
         "4e629e1901dc6ee14e387ad823ed720ca0d694dbc31b2ba3af18052f7da9ea14",
         "667a266e58c2402932fe98f3d3231ae21026f6af7e551a5704af15ed28af3584",
@@ -110,20 +124,15 @@
     },
     "论文/Underwater-OVSS-研究导航.md": {
       "sourcePath": "论文/Underwater-OVSS-研究导航.md",
-      "title": "WaveDN 论文整理版",
+      "title": "Underwater OVSS 研究导航",
       "targetId": "navigation",
       "remotePath": "pages/underwater-ovss-research-navigation.md",
       "permalink": "/lun-wen-bi-ji/underwater-ovss/",
       "slug": "underwater-ovss",
       "publishedAt": "2026-09-01 13:05:13",
-      "updatedAt": "2026-09-02 16:24:08",
-      "contentHash": "9f8266a18ebcbd5562f343a5e9fd593ae6f09fee5ef4bbd50f763c92d383c611",
-      "assetHashes": [
-        "40eaf883020469c681f13526ec75f9d450bfa75aa9e4210a936c9134e8fb2d83",
-        "6706f53a5e4af5c4bca38bb8f8615c5e984fb4cd86309ffb8e6da11d8d6c5620",
-        "a54e7fc74b067683318ef5346e760d70ab559036e16798b17714e7b8c9101ae4",
-        "b4af4801b2d0d5609d0d68c0dea17d7de091ed089382940971f047e7142a6c47"
-      ]
+      "updatedAt": "2026-09-06 14:51:37",
+      "contentHash": "f18f133555faadf458f37c62e0116817680f921c9a711f54a079c90b89021a49",
+      "assetHashes": []
     },
     "论文/WaveDN-整理版.md": {
       "sourcePath": "论文/WaveDN-整理版.md",
