@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "软著申报材料生成系统"
-date: 2026-09-27 19:00:00 +0800
+date: 2026-09-27 16:00:00 +0800
 author: "EklipZ"
 categories: ["作品展示"]
 permalink: /zuo-pin-zhan-shi/softreg-materials/
