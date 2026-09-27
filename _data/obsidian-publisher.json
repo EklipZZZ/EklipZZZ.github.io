@@ -1,7 +1,7 @@
 {
   "version": 1,
   "generatedBy": "obsidian-github-pages-publisher",
-  "updatedAt": "2026-09-06 14:52:37",
+  "updatedAt": "2026-09-27 07:58:33",
   "notes": {
     "论文/DeCLIP-整理版.md": {
       "sourcePath": "论文/DeCLIP-整理版.md",
@@ -103,6 +103,34 @@
         "e2121db8c7255ffd19fee277db0c514b27283ca626935b07cd1fa71ada89f465"
       ]
     },
+    "论文/FSeg-LLaVA.md": {
+      "sourcePath": "论文/FSeg-LLaVA.md",
+      "title": "FSeg-LLaVA：The Power of Prior",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-09-27-fseg-llava.md",
+      "permalink": "/lun-wen-bi-ji/fseg-llava/",
+      "slug": "fseg-llava",
+      "publishedAt": "2026-09-27 07:58:33",
+      "updatedAt": "2026-09-27 07:58:33",
+      "contentHash": "244adec5c752bc90bb0bd1674ad3058ac9db822480a791c6bf3a4aeb057b47e4",
+      "assetHashes": [
+        "f74b2a152598d9b5f88c4bec1b525691b73591de9f1b061355341eea8803c6cb"
+      ]
+    },
+    "论文/MaskCILP.md": {
+      "sourcePath": "论文/MaskCILP.md",
+      "title": "MaskCLIP：Extract Free Dense Labels from CLIP",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-09-27-maskcilp.md",
+      "permalink": "/lun-wen-bi-ji/maskcilp/",
+      "slug": "maskcilp",
+      "publishedAt": "2026-09-27 07:58:33",
+      "updatedAt": "2026-09-27 07:58:33",
+      "contentHash": "3093ebdb49a23f75ccca4028c06fe284817f75281cb91c2ccac650043e900f27",
+      "assetHashes": [
+        "39b9c18c1045abee01155baa584595c229275decf6243bc52092c3897b03da47"
+      ]
+    },
     "论文/MaskCLIP无监督分割实战.md": {
       "sourcePath": "论文/MaskCLIP无监督分割实战.md",
       "title": "MaskCLIP无监督分割实战",
@@ -114,6 +142,20 @@
       "updatedAt": "2026-09-06 14:52:37",
       "contentHash": "5a2f5c4d00cac3970cd3b837d5faad476cc330b6b62e65d8ecb196049e4a88d6",
       "assetHashes": []
+    },
+    "论文/ProxyCLIP.md": {
+      "sourcePath": "论文/ProxyCLIP.md",
+      "title": "ProxyCLIP",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-09-27-proxyclip.md",
+      "permalink": "/lun-wen-bi-ji/proxyclip/",
+      "slug": "proxyclip",
+      "publishedAt": "2026-09-27 07:58:33",
+      "updatedAt": "2026-09-27 07:58:33",
+      "contentHash": "7d042f5e0edfd88b4c1ac217ede8b3b3c0b1b0aa689b3cd230723ea09d5dde43",
+      "assetHashes": [
+        "ebf44b03bf922e4120e6ea0055b020fb277b29c0b3b7177bfea9bfb2aa924932"
+      ]
     },
     "论文/SynCLIP-整理版.md": {
       "sourcePath": "论文/SynCLIP-整理版.md",
@@ -189,6 +231,13 @@
       "sourcePath": "Pasted image 20260830231543.png",
       "extension": "png",
       "updatedAt": "2026-09-01 13:05:13"
+    },
+    "39b9c18c1045abee01155baa584595c229275decf6243bc52092c3897b03da47": {
+      "sha256": "39b9c18c1045abee01155baa584595c229275decf6243bc52092c3897b03da47",
+      "remotePath": "assets/images/obsidian/39b9c18c1045abee01155baa584595c2.png",
+      "sourcePath": "Pasted image 20260927134744.png",
+      "extension": "png",
+      "updatedAt": "2026-09-27 07:58:33"
     },
     "3a82af7387749e1897223961053fd50e98eee9fd7c87ef956ef4d2333b04a67b": {
       "sha256": "3a82af7387749e1897223961053fd50e98eee9fd7c87ef956ef4d2333b04a67b",
@@ -316,12 +365,26 @@
       "extension": "png",
       "updatedAt": "2026-09-02 11:35:28"
     },
+    "ebf44b03bf922e4120e6ea0055b020fb277b29c0b3b7177bfea9bfb2aa924932": {
+      "sha256": "ebf44b03bf922e4120e6ea0055b020fb277b29c0b3b7177bfea9bfb2aa924932",
+      "remotePath": "assets/images/obsidian/ebf44b03bf922e4120e6ea0055b020fb.png",
+      "sourcePath": "Pasted image 20260830231815.png",
+      "extension": "png",
+      "updatedAt": "2026-09-27 07:58:33"
+    },
     "f2e22401d2d8fce74428b2f14556c2c1999e329aab2b333af6583972e726b4fb": {
       "sha256": "f2e22401d2d8fce74428b2f14556c2c1999e329aab2b333af6583972e726b4fb",
       "remotePath": "assets/images/obsidian/f2e22401d2d8fce74428b2f14556c2c1.png",
       "sourcePath": "Pasted image 20260903005140.png",
       "extension": "png",
       "updatedAt": "2026-09-03 17:22:16"
+    },
+    "f74b2a152598d9b5f88c4bec1b525691b73591de9f1b061355341eea8803c6cb": {
+      "sha256": "f74b2a152598d9b5f88c4bec1b525691b73591de9f1b061355341eea8803c6cb",
+      "remotePath": "assets/images/obsidian/f74b2a152598d9b5f88c4bec1b525691.png",
+      "sourcePath": "Pasted image 20260927113059.png",
+      "extension": "png",
+      "updatedAt": "2026-09-27 07:58:33"
     }
   }
 }
