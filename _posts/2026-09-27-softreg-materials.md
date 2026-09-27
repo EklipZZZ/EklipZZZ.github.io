@@ -63,5 +63,8 @@ permalink: /zuo-pin-zhan-shi/softreg-materials/
     </aside>
   </section>
 
-  <p class="project-showcase__cta"><a href="https://github.com/EklipZZZ/materialgenerate/tree/vercel-byok" target="_blank" rel="noopener noreferrer">查看项目代码（当前实现分支）</a></p>
+  <div class="project-showcase__cta">
+    <a href="https://ipgen.top" target="_blank" rel="noopener noreferrer">访问系统</a>
+    <a href="https://github.com/EklipZZZ/materialgenerate/tree/vercel-byok" target="_blank" rel="noopener noreferrer">查看项目代码（当前实现分支）</a>
+  </div>
 </div>

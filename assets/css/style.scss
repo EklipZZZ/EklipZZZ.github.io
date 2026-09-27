@@ -179,6 +179,9 @@
 }
 
 .project-showcase__cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   margin: 28px 0 8px;
 }
 
@@ -196,6 +199,18 @@
 .project-showcase__cta a:focus-visible {
   background: #264b79;
   color: #fff;
+}
+
+.project-showcase__cta a + a {
+  border: 1px solid #9aacc3;
+  background: transparent;
+  color: #315f96;
+}
+
+.project-showcase__cta a + a:hover,
+.project-showcase__cta a + a:focus-visible {
+  background: #e8eef7;
+  color: #264b79;
 }
 
 @media (max-width: 720px) {
