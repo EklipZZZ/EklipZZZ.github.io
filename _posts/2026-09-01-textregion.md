@@ -342,4 +342,4 @@ TextRegion 同时讨论：
 - [ClearCLIP](/lun-wen-bi-ji/clearclip/)：TextRegion Related Work 中的 training-free 开放词汇分割方法。
 - [ProxyCLIP](/lun-wen-bi-ji/proxyclip/)：TextRegion Related Work 和 Table 1 中的直接比较方法。
 - [Trident](/lun-wen-bi-ji/trident/)：TextRegion Related Work 和 Table 1 中的强 training-free 分割基线。
-- SAM：TextRegion 依赖 SAM2 生成区域 mask，是方法中的核心区域生成组件。
+- [SAM](/lun-wen-bi-ji/sam/)：TextRegion 依赖 SAM2 生成区域 mask，是方法中的核心区域生成组件。

@@ -47,7 +47,7 @@ $$
 
 ## 强相关笔记
 
-论文直接比较：SCLIP、[ProxyCLIP](/lun-wen-bi-ji/proxyclip/)、ClearCLIP。
+论文直接比较：[SCLIP](/lun-wen-bi-ji/sclip/)、[ProxyCLIP](/lun-wen-bi-ji/proxyclip/)、[ClearCLIP](/lun-wen-bi-ji/clearclip/)。
 
 ## 论文与代码
 

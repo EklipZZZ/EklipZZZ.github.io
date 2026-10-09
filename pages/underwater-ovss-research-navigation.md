@@ -51,11 +51,11 @@ flowchart LR
 
 ## 当前笔记入口
 
-- E2O：[E2O-整理版](/lun-wen-bi-ji/e2o/)；水下提示词：[E2O-水下提示词库](/lun-wen-bi-ji/e2o-水下提示词库/)
+- E2O：[E2O-整理版](/lun-wen-bi-ji/e2o/)；水下提示词：[E2O-水下提示词库](/dai-ma-bi-ji/e2o-水下提示词库/)
 - TextRegion：[TextRegion-整理版](/lun-wen-bi-ji/textregion/)
 - WaveDN：[WaveDN-整理版](/lun-wen-bi-ji/wavedn/)
-- FDAM：[FDAM-整理版](/lun-wen-bi-ji/fdam/)；直接对照方法：[MaskCLIP无监督分割实战](/dai-ma-bi-ji/maskclip无监督分割实战/)、ProxyCLIP、SCLIP、CorrCLIP、Trident
-- DeCLIP：[DeCLIP-整理版](/lun-wen-bi-ji/declip/)；直接对照方法：[MaskCLIP无监督分割实战](/dai-ma-bi-ji/maskclip无监督分割实战/)、SCLIP、ClearCLIP、ProxyCLIP
+- FDAM：[FDAM-整理版](/lun-wen-bi-ji/fdam/)；直接对照方法：[MaskCLIP复现](/dai-ma-bi-ji/maskclip无监督分割实战/)、[ProxyCLIP](/lun-wen-bi-ji/proxyclip/)、[SCLIP](/lun-wen-bi-ji/sclip/)、[CorrCLIP](/lun-wen-bi-ji/corrclip/)、[Trident](/lun-wen-bi-ji/trident/)
+- DeCLIP：[DeCLIP-整理版](/lun-wen-bi-ji/declip/)；直接对照方法：[MaskCLIP复现](/dai-ma-bi-ji/maskclip无监督分割实战/)、[SCLIP](/lun-wen-bi-ji/sclip/)、[ClearCLIP](/lun-wen-bi-ji/clearclip/)、[ProxyCLIP](/lun-wen-bi-ji/proxyclip/)
 - SynCLIP：[SynCLIP-整理版](/lun-wen-bi-ji/synclip/)；直接相关方法：[DeCLIP-整理版](/lun-wen-bi-ji/declip/)、DINO
 
 ## 维护约定

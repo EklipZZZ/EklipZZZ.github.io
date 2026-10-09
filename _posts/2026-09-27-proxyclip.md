@@ -7,6 +7,8 @@ categories: ["论文笔记"]
 permalink: "/lun-wen-bi-ji/proxyclip/"
 ---
 
+原论文：[ProxyCLIP: Proxy Attention Improves CLIP for Open-Vocabulary Segmentation](https://arxiv.org/abs/2408.04883)
+
 核心：代理注意力，归一化和掩码，小patch
 
 

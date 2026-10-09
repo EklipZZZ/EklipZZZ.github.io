@@ -1,7 +1,7 @@
 {
   "version": 1,
   "generatedBy": "obsidian-github-pages-publisher",
-  "updatedAt": "2026-10-09 03:14:08",
+  "updatedAt": "2026-10-09 03:44:15",
   "notes": {
     "论文/ClearCLIP.md": {
       "sourcePath": "论文/ClearCLIP.md",
@@ -11,8 +11,8 @@
       "permalink": "/lun-wen-bi-ji/clearclip/",
       "slug": "clearclip",
       "publishedAt": "2026-09-27 08:00:13",
-      "updatedAt": "2026-09-27 08:00:13",
-      "contentHash": "bf26ae7e2e8b22635f628c491876b4fe4fdf1c8ca4e6037b0cdc49ea14a54d6c",
+      "updatedAt": "2026-10-09 03:44:15",
+      "contentHash": "c4fe218c7917f6a7c5d49bc2edee5bf65af7f065cb61ce430862721ee207abce",
       "assetHashes": [
         "d27345b864735f096f6bc9f07a4c33ba5aba6cce30d79ab2d3787a0b9cba13bb"
       ]
@@ -25,8 +25,8 @@
       "permalink": "/lun-wen-bi-ji/corrclip/",
       "slug": "corrclip",
       "publishedAt": "2026-09-27 08:00:13",
-      "updatedAt": "2026-09-27 08:00:13",
-      "contentHash": "1326f94662a46adf1e8abd2d199c98ce19bf320286f1a688ab05c177ee58d2f0",
+      "updatedAt": "2026-10-09 03:44:15",
+      "contentHash": "fd4515561fc4adde4ec79ede961f204bb631f591575999442856c97fbd9d8d7f",
       "assetHashes": [
         "5c822633d2c0a40f19431561fa22ca860bf7e521a21bd7b897708ffde3a2a2ca"
       ]
@@ -39,8 +39,8 @@
       "permalink": "/lun-wen-bi-ji/declip/",
       "slug": "declip",
       "publishedAt": "2026-09-02 16:21:16",
-      "updatedAt": "2026-10-09 03:14:08",
-      "contentHash": "764c5a57f469b66a0633ab2064acc94acc6ea96b9246d4ed778c8395d7fb597b",
+      "updatedAt": "2026-10-09 03:44:15",
+      "contentHash": "8f126837d1502f67cd59d3075231756fe31001cb6fab70f6a9f0d395c088499e",
       "assetHashes": [
         "960971f02f5de99ebe34ef76973c0ef7d42676672cf9cce8c2c3209fe1a16271",
         "cae428e51e3171b329b948605b6f726780c6c6e88df798e12750784a2fdff4f4",
@@ -69,8 +69,8 @@
       "permalink": "/dai-ma-bi-ji/e2o-水下提示词库/",
       "slug": "e2o-水下提示词库",
       "publishedAt": "2026-09-01 13:05:13",
-      "updatedAt": "2026-09-06 14:52:37",
-      "contentHash": "9198addba9b8621b4e3fe7327920e439754f01ad8bba84e4b3b0f0895de90284",
+      "updatedAt": "2026-10-09 03:44:15",
+      "contentHash": "80678fef0d0fdf274dfafe2b95091c9e1ff9048806d594e61fc060a9bdeb5cbe",
       "assetHashes": []
     },
     "论文/E2O-整理版.md": {
@@ -87,6 +87,18 @@
         "1fe471b005cefdebd5368280eb74b92b3da946fc1b1afa4575d320e55d7d27e3"
       ]
     },
+    "论文/E2O复现代码笔记-整理版.md": {
+      "sourcePath": "论文/E2O复现代码笔记-整理版.md",
+      "title": "Earth2Ocean（E2O）复现代码笔记·整理版",
+      "targetId": "code",
+      "remotePath": "_posts/2026-09-06-e2o论文复现全面总结.md",
+      "permalink": "/dai-ma-bi-ji/e2o论文复现全面总结/",
+      "slug": "e2o论文复现全面总结",
+      "publishedAt": "2026-09-06 14:52:37",
+      "updatedAt": "2026-10-09 03:44:15",
+      "contentHash": "532968488b24af281455623e93926f33c88674ed2398c124c2a950273fa3975e",
+      "assetHashes": []
+    },
     "论文/E2O复现流程记录.md": {
       "sourcePath": "论文/E2O复现流程记录.md",
       "title": "E2O复现流程记录",
@@ -99,17 +111,19 @@
       "contentHash": "9c7ef25b666bcf8472078ad233ca18af64612478b49ff47903f764c4d0193cb8",
       "assetHashes": []
     },
-    "论文/E2O论文复现全面总结.md": {
-      "sourcePath": "论文/E2O论文复现全面总结.md",
-      "title": "E2O论文复现全面总结",
-      "targetId": "code",
-      "remotePath": "_posts/2026-09-06-e2o论文复现全面总结.md",
-      "permalink": "/dai-ma-bi-ji/e2o论文复现全面总结/",
-      "slug": "e2o论文复现全面总结",
-      "publishedAt": "2026-09-06 14:52:37",
-      "updatedAt": "2026-09-06 14:52:37",
-      "contentHash": "9929851f580d00e942bfc69ed5a510f1f79b1e21efbfcb0f7051d0adda81aa50",
-      "assetHashes": []
+    "论文/ETF.md": {
+      "sourcePath": "论文/ETF.md",
+      "title": "ETF：扩展类别描述，再进行多层图文融合",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-10-09-etf.md",
+      "permalink": "/lun-wen-bi-ji/etf/",
+      "slug": "etf",
+      "publishedAt": "2026-10-09 03:44:15",
+      "updatedAt": "2026-10-09 03:44:15",
+      "contentHash": "dfd970fc385de8aea28c2341780646b2ab3255255c6542b4d81cb4a67ff83139",
+      "assetHashes": [
+        "b0213e6885dccf7a4956cf4280b1a26acec56d97e04618be67603d1e3e3b107e"
+      ]
     },
     "论文/FDAM-整理版.md": {
       "sourcePath": "论文/FDAM-整理版.md",
@@ -139,10 +153,24 @@
       "permalink": "/lun-wen-bi-ji/fseg-llava/",
       "slug": "fseg-llava",
       "publishedAt": "2026-09-27 07:58:33",
-      "updatedAt": "2026-09-27 07:58:33",
-      "contentHash": "244adec5c752bc90bb0bd1674ad3058ac9db822480a791c6bf3a4aeb057b47e4",
+      "updatedAt": "2026-10-09 03:44:15",
+      "contentHash": "c6a8e39c60a59b79a63d1c0ce2eea0b78394d2c2b3595ecdd861332580ef2630",
       "assetHashes": [
         "f74b2a152598d9b5f88c4bec1b525691b73591de9f1b061355341eea8803c6cb"
+      ]
+    },
+    "论文/GeoSeC.md": {
+      "sourcePath": "论文/GeoSeC.md",
+      "title": "GeoSeC：语义证据如何进入几何区域",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-10-09-geosec.md",
+      "permalink": "/lun-wen-bi-ji/geosec/",
+      "slug": "geosec",
+      "publishedAt": "2026-10-09 03:44:15",
+      "updatedAt": "2026-10-09 03:44:15",
+      "contentHash": "01ba16a87b7764590e4bdd0a74ec45da80b3b25bc6a6602cd19259f47ad026d2",
+      "assetHashes": [
+        "4cb6f6b1da6983d8bdd294aa1fe1aa93da026daf52c630197118de19e5a9d668"
       ]
     },
     "论文/MaskCILP.md": {
@@ -153,22 +181,22 @@
       "permalink": "/lun-wen-bi-ji/maskcilp/",
       "slug": "maskcilp",
       "publishedAt": "2026-09-27 07:58:33",
-      "updatedAt": "2026-09-27 07:58:33",
-      "contentHash": "3093ebdb49a23f75ccca4028c06fe284817f75281cb91c2ccac650043e900f27",
+      "updatedAt": "2026-10-09 03:44:15",
+      "contentHash": "be9a353a598c0e2eecf2d2a13e81f1d74d8af6f519a17423abc2f99db10c7d82",
       "assetHashes": [
         "39b9c18c1045abee01155baa584595c229275decf6243bc52092c3897b03da47"
       ]
     },
-    "论文/MaskCLIP无监督分割实战.md": {
-      "sourcePath": "论文/MaskCLIP无监督分割实战.md",
+    "论文/MaskCLIP复现.md": {
+      "sourcePath": "论文/MaskCLIP复现.md",
       "title": "MaskCLIP无监督分割实战",
       "targetId": "code",
       "remotePath": "_posts/2026-08-12-maskclip无监督分割实战.md",
       "permalink": "/dai-ma-bi-ji/maskclip无监督分割实战/",
       "slug": "maskclip无监督分割实战",
       "publishedAt": "2026-08-12 17:22:09",
-      "updatedAt": "2026-09-06 14:52:37",
-      "contentHash": "5a2f5c4d00cac3970cd3b837d5faad476cc330b6b62e65d8ecb196049e4a88d6",
+      "updatedAt": "2026-10-09 03:44:15",
+      "contentHash": "446344fb44956f3f3970494419ced92f059662db024f13e8fe02ed451cd29134",
       "assetHashes": []
     },
     "论文/ProxyCLIP.md": {
@@ -179,10 +207,38 @@
       "permalink": "/lun-wen-bi-ji/proxyclip/",
       "slug": "proxyclip",
       "publishedAt": "2026-09-27 07:58:33",
-      "updatedAt": "2026-09-27 07:58:33",
-      "contentHash": "7d042f5e0edfd88b4c1ac217ede8b3b3c0b1b0aa689b3cd230723ea09d5dde43",
+      "updatedAt": "2026-10-09 03:44:15",
+      "contentHash": "64f8c0264ea96c62c1e26b58dfbac68e099e50f27943c0b22cdb68c213ca8ce0",
       "assetHashes": [
         "ebf44b03bf922e4120e6ea0055b020fb277b29c0b3b7177bfea9bfb2aa924932"
+      ]
+    },
+    "论文/SAM.md": {
+      "sourcePath": "论文/SAM.md",
+      "title": "Segment Anything（SAM）",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-10-09-sam.md",
+      "permalink": "/lun-wen-bi-ji/sam/",
+      "slug": "sam",
+      "publishedAt": "2026-10-09 03:44:15",
+      "updatedAt": "2026-10-09 03:44:15",
+      "contentHash": "ab2d837d8d52420df485dfb3e67a5f4fa2ad5e97fb44fcaa4f43021ac40f4837",
+      "assetHashes": [
+        "1998a056f9b198fd1aadc76bdfab2a79b21f6bd347286ee1c833e9d65ee4c8b2"
+      ]
+    },
+    "论文/SAM3.md": {
+      "sourcePath": "论文/SAM3.md",
+      "title": "SAM3",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-10-09-sam3.md",
+      "permalink": "/lun-wen-bi-ji/sam3/",
+      "slug": "sam3",
+      "publishedAt": "2026-10-09 03:44:15",
+      "updatedAt": "2026-10-09 03:44:15",
+      "contentHash": "39b1b8d3f60ace98e69320a6253a45d042db96e4be6440c71b11d7705cd7f270",
+      "assetHashes": [
+        "25bca8bd56f7882bb81eb99e0622a32e50e2a044ef367b10537aa4e51934a488"
       ]
     },
     "论文/SCLIP.md": {
@@ -193,8 +249,8 @@
       "permalink": "/lun-wen-bi-ji/sclip/",
       "slug": "sclip",
       "publishedAt": "2026-09-27 08:00:13",
-      "updatedAt": "2026-09-27 08:00:13",
-      "contentHash": "8bebfeb69a17f20c44f6a42c42f2bc470b5cf7fbf8480555fefee13a1bd3e7df",
+      "updatedAt": "2026-10-09 03:44:15",
+      "contentHash": "c4604747b965ef2840b7959a6dbead0a80d2fd56e4d3a5b9ccc0abe7a6582b63",
       "assetHashes": [
         "5b05a65ed48f4717b9a0380679d92d1258f7707b236c87b5c0d0f468e6a898d6"
       ]
@@ -216,6 +272,21 @@
         "e353cc081bf123853e329136ff66c0734f7837d35c44461d3f231af830b37def"
       ]
     },
+    "论文/T2S.md": {
+      "sourcePath": "论文/T2S.md",
+      "title": "T2S",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-10-09-t2s.md",
+      "permalink": "/lun-wen-bi-ji/t2s/",
+      "slug": "t2s",
+      "publishedAt": "2026-10-09 03:44:15",
+      "updatedAt": "2026-10-09 03:44:15",
+      "contentHash": "6e5e9044a6d1853561db35b738ea65d2d4ca297dd5b857c196a02cf046d20472",
+      "assetHashes": [
+        "ce89566c9aefc580d1f3852b0cb7818b68d19ab8bdd4eb167b295384734c1dcb",
+        "d71cd5eac58107d98b88275d589132711e07c40bad5ab74f5661be72a6a8b9e3"
+      ]
+    },
     "论文/TextRegion-整理版.md": {
       "sourcePath": "论文/TextRegion-整理版.md",
       "title": "TextRegion 论文整理版",
@@ -224,8 +295,8 @@
       "permalink": "/lun-wen-bi-ji/textregion/",
       "slug": "textregion",
       "publishedAt": "2026-09-01 13:05:13",
-      "updatedAt": "2026-10-09 03:14:08",
-      "contentHash": "3f1764d5abc381c0eddd0ad99e18f96dad78339172e7b3cd0f541386b9734610",
+      "updatedAt": "2026-10-09 03:44:15",
+      "contentHash": "9fdcc4549f1329ba18e87f155102cf3fed7222037c8bd4d5c7d465d6c8f217e6",
       "assetHashes": [
         "6706f53a5e4af5c4bca38bb8f8615c5e984fb4cd86309ffb8e6da11d8d6c5620"
       ]
@@ -238,8 +309,8 @@
       "permalink": "/lun-wen-bi-ji/trident/",
       "slug": "trident",
       "publishedAt": "2026-09-27 08:00:13",
-      "updatedAt": "2026-09-27 08:00:13",
-      "contentHash": "b1bb38e311ec685616ffd3e9832159ed5d97450e8dca8c0ab31e0159f62e84cc",
+      "updatedAt": "2026-10-09 03:44:15",
+      "contentHash": "ef0d180a5d77bd08a79b362d557947c40de8f8055f330629bf6edb84f58ad346",
       "assetHashes": [
         "e29cfc36675335aa65fcf3ec64fb7b7ca52d39ab132a244a463cb95e663e218c"
       ]
@@ -252,8 +323,8 @@
       "permalink": "/lun-wen-bi-ji/underwater-ovss/",
       "slug": "underwater-ovss",
       "publishedAt": "2026-09-01 13:05:13",
-      "updatedAt": "2026-09-06 14:51:37",
-      "contentHash": "f18f133555faadf458f37c62e0116817680f921c9a711f54a079c90b89021a49",
+      "updatedAt": "2026-10-09 03:44:15",
+      "contentHash": "4137b2f11ac1c94617edfa94b11e2a547621b492040efea7f27cb09cbb4fc883",
       "assetHashes": []
     },
     "论文/WaveDN-整理版.md": {
@@ -281,12 +352,26 @@
       "extension": "png",
       "updatedAt": "2026-09-02 16:21:16"
     },
+    "1998a056f9b198fd1aadc76bdfab2a79b21f6bd347286ee1c833e9d65ee4c8b2": {
+      "sha256": "1998a056f9b198fd1aadc76bdfab2a79b21f6bd347286ee1c833e9d65ee4c8b2",
+      "remotePath": "assets/images/obsidian/1998a056f9b198fd1aadc76bdfab2a79.png",
+      "sourcePath": "Pasted image 20260930183630.png",
+      "extension": "png",
+      "updatedAt": "2026-10-09 03:44:15"
+    },
     "1fe471b005cefdebd5368280eb74b92b3da946fc1b1afa4575d320e55d7d27e3": {
       "sha256": "1fe471b005cefdebd5368280eb74b92b3da946fc1b1afa4575d320e55d7d27e3",
       "remotePath": "assets/images/obsidian/1fe471b005cefdebd5368280eb74b92b.png",
       "sourcePath": "Pasted image 20260830231543.png",
       "extension": "png",
       "updatedAt": "2026-09-01 13:05:13"
+    },
+    "25bca8bd56f7882bb81eb99e0622a32e50e2a044ef367b10537aa4e51934a488": {
+      "sha256": "25bca8bd56f7882bb81eb99e0622a32e50e2a044ef367b10537aa4e51934a488",
+      "remotePath": "assets/images/obsidian/25bca8bd56f7882bb81eb99e0622a32e.png",
+      "sourcePath": "Pasted image 20260930162631.png",
+      "extension": "png",
+      "updatedAt": "2026-10-09 03:44:15"
     },
     "39b9c18c1045abee01155baa584595c229275decf6243bc52092c3897b03da47": {
       "sha256": "39b9c18c1045abee01155baa584595c229275decf6243bc52092c3897b03da47",
@@ -315,6 +400,13 @@
       "sourcePath": "Pasted image 20260901032745.png",
       "extension": "png",
       "updatedAt": "2026-09-01 13:05:13"
+    },
+    "4cb6f6b1da6983d8bdd294aa1fe1aa93da026daf52c630197118de19e5a9d668": {
+      "sha256": "4cb6f6b1da6983d8bdd294aa1fe1aa93da026daf52c630197118de19e5a9d668",
+      "remotePath": "assets/images/obsidian/4cb6f6b1da6983d8bdd294aa1fe1aa93.png",
+      "sourcePath": "Pasted image 20260930201923.png",
+      "extension": "png",
+      "updatedAt": "2026-10-09 03:44:15"
     },
     "4e629e1901dc6ee14e387ad823ed720ca0d694dbc31b2ba3af18052f7da9ea14": {
       "sha256": "4e629e1901dc6ee14e387ad823ed720ca0d694dbc31b2ba3af18052f7da9ea14",
@@ -386,6 +478,13 @@
       "extension": "png",
       "updatedAt": "2026-09-01 13:05:13"
     },
+    "b0213e6885dccf7a4956cf4280b1a26acec56d97e04618be67603d1e3e3b107e": {
+      "sha256": "b0213e6885dccf7a4956cf4280b1a26acec56d97e04618be67603d1e3e3b107e",
+      "remotePath": "assets/images/obsidian/b0213e6885dccf7a4956cf4280b1a26a.png",
+      "sourcePath": "Pasted image 20261007171124.png",
+      "extension": "png",
+      "updatedAt": "2026-10-09 03:44:15"
+    },
     "b4af4801b2d0d5609d0d68c0dea17d7de091ed089382940971f047e7142a6c47": {
       "sha256": "b4af4801b2d0d5609d0d68c0dea17d7de091ed089382940971f047e7142a6c47",
       "remotePath": "assets/images/obsidian/b4af4801b2d0d5609d0d68c0dea17d7d.png",
@@ -421,12 +520,26 @@
       "extension": "png",
       "updatedAt": "2026-09-03 17:22:16"
     },
+    "ce89566c9aefc580d1f3852b0cb7818b68d19ab8bdd4eb167b295384734c1dcb": {
+      "sha256": "ce89566c9aefc580d1f3852b0cb7818b68d19ab8bdd4eb167b295384734c1dcb",
+      "remotePath": "assets/images/obsidian/ce89566c9aefc580d1f3852b0cb7818b.png",
+      "sourcePath": "Pasted image 20261007170927.png",
+      "extension": "png",
+      "updatedAt": "2026-10-09 03:44:15"
+    },
     "d27345b864735f096f6bc9f07a4c33ba5aba6cce30d79ab2d3787a0b9cba13bb": {
       "sha256": "d27345b864735f096f6bc9f07a4c33ba5aba6cce30d79ab2d3787a0b9cba13bb",
       "remotePath": "assets/images/obsidian/d27345b864735f096f6bc9f07a4c33ba.png",
       "sourcePath": "Pasted image 20260830231643.png",
       "extension": "png",
       "updatedAt": "2026-09-27 08:00:13"
+    },
+    "d71cd5eac58107d98b88275d589132711e07c40bad5ab74f5661be72a6a8b9e3": {
+      "sha256": "d71cd5eac58107d98b88275d589132711e07c40bad5ab74f5661be72a6a8b9e3",
+      "remotePath": "assets/images/obsidian/d71cd5eac58107d98b88275d58913271.png",
+      "sourcePath": "Pasted image 20261007164842.png",
+      "extension": "png",
+      "updatedAt": "2026-10-09 03:44:15"
     },
     "e2121db8c7255ffd19fee277db0c514b27283ca626935b07cd1fa71ada89f465": {
       "sha256": "e2121db8c7255ffd19fee277db0c514b27283ca626935b07cd1fa71ada89f465",
