@@ -1,7 +1,7 @@
 {
   "version": 1,
   "generatedBy": "obsidian-github-pages-publisher",
-  "updatedAt": "2026-10-09 03:44:15",
+  "updatedAt": "2026-10-09 08:25:32",
   "notes": {
     "论文/ClearCLIP.md": {
       "sourcePath": "论文/ClearCLIP.md",
@@ -45,20 +45,6 @@
         "960971f02f5de99ebe34ef76973c0ef7d42676672cf9cce8c2c3209fe1a16271",
         "cae428e51e3171b329b948605b6f726780c6c6e88df798e12750784a2fdff4f4",
         "f2e22401d2d8fce74428b2f14556c2c1999e329aab2b333af6583972e726b4fb"
-      ]
-    },
-    "论文/E2O-论文整理版.md": {
-      "sourcePath": "论文/E2O-论文整理版.md",
-      "title": "Earth2Ocean（E2O）论文整理版",
-      "targetId": "paper",
-      "remotePath": "_posts/2026-09-01-e2o-论文.md",
-      "permalink": "/lun-wen-bi-ji/e2o-论文/",
-      "slug": "e2o-论文",
-      "publishedAt": "2026-09-01 13:05:13",
-      "updatedAt": "2026-09-02 16:24:08",
-      "contentHash": "60e403bf2ae7921358ff0523ab2e2fa75bfa930c282d8c64d98dec6c7bdf2fea",
-      "assetHashes": [
-        "1fe471b005cefdebd5368280eb74b92b3da946fc1b1afa4575d320e55d7d27e3"
       ]
     },
     "论文/E2O-水下提示词库.md": {
