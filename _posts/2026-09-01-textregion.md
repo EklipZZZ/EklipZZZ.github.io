@@ -11,6 +11,8 @@ source: "https://doi.org/10.48550/arXiv.2505.23769"
 
 # TextRegion：论文整理版
 
+原论文：[TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models](https://arxiv.org/abs/2505.23769)
+
 ## 1. 论文要解决什么
 
 标准 CLIP 擅长把整张图像和文本放到同一个语义空间，但 OVSS 需要回答更细的问题：
@@ -336,8 +338,8 @@ TextRegion 同时讨论：
 根据 TextRegion 原文的 Related Work 和 Table 1，这些是论文明确提到或直接比较、且 Vault 中已有对应笔记的强相关方法：
 
 - MaskCLIP：TextRegion 讨论的 training-free 开放词汇分割先行方法，也是 Table 1 的直接比较基线。
-- SCLIP：TextRegion Related Work 和 Table 1 中的 training-free 分割基线。
-- ClearCLIP：TextRegion Related Work 中的 training-free 开放词汇分割方法。
-- ProxyCLIP：TextRegion Related Work 和 Table 1 中的直接比较方法。
-- Trident：TextRegion Related Work 和 Table 1 中的强 training-free 分割基线。
+- [SCLIP](/lun-wen-bi-ji/sclip/)：TextRegion Related Work 和 Table 1 中的 training-free 分割基线。
+- [ClearCLIP](/lun-wen-bi-ji/clearclip/)：TextRegion Related Work 中的 training-free 开放词汇分割方法。
+- [ProxyCLIP](/lun-wen-bi-ji/proxyclip/)：TextRegion Related Work 和 Table 1 中的直接比较方法。
+- [Trident](/lun-wen-bi-ji/trident/)：TextRegion Related Work 和 Table 1 中的强 training-free 分割基线。
 - SAM：TextRegion 依赖 SAM2 生成区域 mask，是方法中的核心区域生成组件。
