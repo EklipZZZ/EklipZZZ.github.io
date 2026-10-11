@@ -1,8 +1,22 @@
 {
   "version": 1,
   "generatedBy": "obsidian-github-pages-publisher",
-  "updatedAt": "2026-10-09 08:25:32",
+  "updatedAt": "2026-10-11 12:25:47",
   "notes": {
+    "论文/AnchorDiff.md": {
+      "sourcePath": "论文/AnchorDiff.md",
+      "title": "AnchorDiff: Training-Free Concept Grounding for MM-DiTs via Anchor-Based Graph Propagation",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-10-11-anchordiff.md",
+      "permalink": "/lun-wen-bi-ji/anchordiff/",
+      "slug": "anchordiff",
+      "publishedAt": "2026-10-11 12:25:47",
+      "updatedAt": "2026-10-11 12:25:47",
+      "contentHash": "d1c85e43c416f13e730ce77255ce6e46db963ee0758bd561f8fb55af09a424ce",
+      "assetHashes": [
+        "92a9ff71951a9371cbdf81d141052232d9d08049dedf701f8ef5b3885a437eb8"
+      ]
+    },
     "论文/ClearCLIP.md": {
       "sourcePath": "论文/ClearCLIP.md",
       "title": "ClearCLIP",
@@ -241,6 +255,18 @@
         "5b05a65ed48f4717b9a0380679d92d1258f7707b236c87b5c0d0f468e6a898d6"
       ]
     },
+    "论文/SegEarth-OV.md": {
+      "sourcePath": "论文/SegEarth-OV.md",
+      "title": "SegEarth-OV: Towards Training-Free Open-Vocabulary Segmentation for Remote Sensing Images",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-10-11-segearth-ov.md",
+      "permalink": "/lun-wen-bi-ji/segearth-ov/",
+      "slug": "segearth-ov",
+      "publishedAt": "2026-10-11 12:25:47",
+      "updatedAt": "2026-10-11 12:25:47",
+      "contentHash": "edc39e43cac9a845f673d54cadeeb5703f4c801e0707cec195b82cc713b99627",
+      "assetHashes": []
+    },
     "论文/SynCLIP-整理版.md": {
       "sourcePath": "论文/SynCLIP-整理版.md",
       "title": "SynCLIP 论文整理版",
@@ -449,6 +475,13 @@
       "sourcePath": "Pasted image 20260902191511.png",
       "extension": "png",
       "updatedAt": "2026-09-02 11:35:28"
+    },
+    "92a9ff71951a9371cbdf81d141052232d9d08049dedf701f8ef5b3885a437eb8": {
+      "sha256": "92a9ff71951a9371cbdf81d141052232d9d08049dedf701f8ef5b3885a437eb8",
+      "remotePath": "assets/images/obsidian/92a9ff71951a9371cbdf81d141052232.png",
+      "sourcePath": "Pasted image 20261007175353.png",
+      "extension": "png",
+      "updatedAt": "2026-10-11 12:25:47"
     },
     "960971f02f5de99ebe34ef76973c0ef7d42676672cf9cce8c2c3209fe1a16271": {
       "sha256": "960971f02f5de99ebe34ef76973c0ef7d42676672cf9cce8c2c3209fe1a16271",
