@@ -9,9 +9,7 @@ permalink: "/lun-wen-bi-ji/anchordiff/"
 
 # AnchorDiff: Training-Free Concept Grounding for MM-DiTs via Anchor-Based Graph Propagation
 
-Jian Zhang、Zhijun Zhang，arXiv:2605.26460v1，2026 年 5 月。[原论文](https://arxiv.org/abs/2605.26460)
-
-![Pasted image 20261007175353](/assets/images/obsidian/92a9ff71951a9371cbdf81d141052232.png)
+Jian Zhang、Zhijun Zhang，arXiv:2605.26460v1，2026 年 5 月。[原论文](https://arxiv.org/abs/2605.26460)![Pasted image 20261011204633](/assets/images/obsidian/4670c670eaaf462d33005523d0bf91e0.png)
 
 > **一句话概括：** 先从概念注意力中找一个最可信的目标位置，再用 MM-DiT 自注意力构造的图把响应扩到同一物体，同时尽量挡住相似干扰物。
 

@@ -16,7 +16,7 @@ Kaiyu Li 等，CVPR 2025。 [原论文](https://doi.org/10.1109/CVPR52734.2025.0
 ## 问题
 
 作者观察到，CLIP 的 patch 特征分辨率较低，在遥感影像里容易把小目标切坏、边界贴合不准；同时，图像级 CLS 表征携带的全局信息会影响 patch 特征，使局部区域也响应到不相关类别。
-
+![Pasted image 20261011205048](/assets/images/obsidian/97c10ff4d09a8bfe772133c33ef63c88.png)
 ## 方法
 
 1. **SimFeatUp 上采样：** 冻结 CLIP，用高分辨率 RGB 图像引导 joint bilateral upsampler 放大局部特征。SimFeatUp 在 16k 张无标签 Million-AID 遥感图像上单独训练，目标同时包含特征重建和图像内容重建。

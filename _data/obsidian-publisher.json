@@ -1,7 +1,7 @@
 {
   "version": 1,
   "generatedBy": "obsidian-github-pages-publisher",
-  "updatedAt": "2026-10-11 12:25:47",
+  "updatedAt": "2026-10-19 12:17:10",
   "notes": {
     "论文/AnchorDiff.md": {
       "sourcePath": "论文/AnchorDiff.md",
@@ -11,10 +11,10 @@
       "permalink": "/lun-wen-bi-ji/anchordiff/",
       "slug": "anchordiff",
       "publishedAt": "2026-10-11 12:25:47",
-      "updatedAt": "2026-10-11 12:25:47",
-      "contentHash": "d1c85e43c416f13e730ce77255ce6e46db963ee0758bd561f8fb55af09a424ce",
+      "updatedAt": "2026-10-19 12:17:10",
+      "contentHash": "b5fd5be15ee1f6200376dd923b0c1ed991a6618c8c439f43e69e4933999fadbf",
       "assetHashes": [
-        "92a9ff71951a9371cbdf81d141052232d9d08049dedf701f8ef5b3885a437eb8"
+        "4670c670eaaf462d33005523d0bf91e0c1159a7fc01509928bd223776ee521b6"
       ]
     },
     "论文/ClearCLIP.md": {
@@ -173,6 +173,20 @@
         "4cb6f6b1da6983d8bdd294aa1fe1aa93da026daf52c630197118de19e5a9d668"
       ]
     },
+    "论文/lposs.md": {
+      "sourcePath": "论文/lposs.md",
+      "title": "LPOSS — Label Propagation Over Patches and Pixels",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-10-19-lposs.md",
+      "permalink": "/lun-wen-bi-ji/lposs/",
+      "slug": "lposs",
+      "publishedAt": "2026-10-19 12:17:10",
+      "updatedAt": "2026-10-19 12:17:10",
+      "contentHash": "908e2bd9e5e9712e9e3f8c76ec61fac55ed02a3b564a760f331b06f4b408845d",
+      "assetHashes": [
+        "f0e31483efa3473e035732298dab3deb339d5aa6f1579407f595ca67809749a0"
+      ]
+    },
     "论文/MaskCILP.md": {
       "sourcePath": "论文/MaskCILP.md",
       "title": "MaskCLIP：Extract Free Dense Labels from CLIP",
@@ -263,9 +277,11 @@
       "permalink": "/lun-wen-bi-ji/segearth-ov/",
       "slug": "segearth-ov",
       "publishedAt": "2026-10-11 12:25:47",
-      "updatedAt": "2026-10-11 12:25:47",
-      "contentHash": "edc39e43cac9a845f673d54cadeeb5703f4c801e0707cec195b82cc713b99627",
-      "assetHashes": []
+      "updatedAt": "2026-10-19 12:17:10",
+      "contentHash": "ffd1bd8c1771eddf74c301b22f9b40daaeae69e85b95f438eed074fc875997df",
+      "assetHashes": [
+        "97c10ff4d09a8bfe772133c33ef63c88e244a51e6ca19b1b04d41050b24c89c1"
+      ]
     },
     "论文/SynCLIP-整理版.md": {
       "sourcePath": "论文/SynCLIP-整理版.md",
@@ -313,6 +329,32 @@
         "6706f53a5e4af5c4bca38bb8f8615c5e984fb4cd86309ffb8e6da11d8d6c5620"
       ]
     },
+    "论文/TPA.md": {
+      "sourcePath": "论文/TPA.md",
+      "title": "TPA",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-10-19-tpa.md",
+      "permalink": "/lun-wen-bi-ji/tpa/",
+      "slug": "tpa",
+      "publishedAt": "2026-10-19 12:17:10",
+      "updatedAt": "2026-10-19 12:17:10",
+      "contentHash": "3e937be71c4f1843b803d6e2ca61f0791ad8f26ca223c6e7ae3e83eef7ec3ce5",
+      "assetHashes": [
+        "ae86d4b1eac4c084c609f1ec64e70d176404bc37f0e13914cc12f5a73bb9e512"
+      ]
+    },
+    "论文/Training-Free Multi-Granularity Semantic Anchor Propagation for Underwater Open-Vocabulary Segmentation.md": {
+      "sourcePath": "论文/Training-Free Multi-Granularity Semantic Anchor Propagation for Underwater Open-Vocabulary Segmentation.md",
+      "title": "Training-Free Multi-Granularity Semantic Anchor Propagation for Underwater Open-Vocabulary Segmentation",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-10-19-training-free-multi-granularity-semantic-anchor-propagation-for-underwater-open-vocabulary-segmentation.md",
+      "permalink": "/lun-wen-bi-ji/training-free-multi-granularity-semantic-anchor-propagation-for-underwater-open-vocabulary-segmentation/",
+      "slug": "training-free-multi-granularity-semantic-anchor-propagation-for-underwater-open-vocabulary-segmentation",
+      "publishedAt": "2026-10-19 12:17:10",
+      "updatedAt": "2026-10-19 12:17:10",
+      "contentHash": "4a3e74dd360c3a3cbbcf1cfa79f2761534b5ff931b0652f6e2b2da8fda806d41",
+      "assetHashes": []
+    },
     "论文/Trident.md": {
       "sourcePath": "论文/Trident.md",
       "title": "Trident",
@@ -354,6 +396,20 @@
         "a54e7fc74b067683318ef5346e760d70ab559036e16798b17714e7b8c9101ae4",
         "b4af4801b2d0d5609d0d68c0dea17d7de091ed089382940971f047e7142a6c47"
       ]
+    },
+    "论文/What Holds Back Open-Vocabulary Segmentation.md": {
+      "sourcePath": "论文/What Holds Back Open-Vocabulary Segmentation.md",
+      "title": "What Holds Back Open-Vocabulary Segmentation?",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-10-19-what-holds-back-open-vocabulary-segmentation.md",
+      "permalink": "/lun-wen-bi-ji/what-holds-back-open-vocabulary-segmentation/",
+      "slug": "what-holds-back-open-vocabulary-segmentation",
+      "publishedAt": "2026-10-19 12:17:10",
+      "updatedAt": "2026-10-19 12:17:10",
+      "contentHash": "d3ee2746dd1df6b1ec63490b574e58f45a9ff26bbc04db0cf8c365f7a99bebb8",
+      "assetHashes": [
+        "1b660f125cf97db20d52446ca750a6955c866b741116db4d80c2345b6b2145d9"
+      ]
     }
   },
   "assets": {
@@ -370,6 +426,13 @@
       "sourcePath": "Pasted image 20260930183630.png",
       "extension": "png",
       "updatedAt": "2026-10-09 03:44:15"
+    },
+    "1b660f125cf97db20d52446ca750a6955c866b741116db4d80c2345b6b2145d9": {
+      "sha256": "1b660f125cf97db20d52446ca750a6955c866b741116db4d80c2345b6b2145d9",
+      "remotePath": "assets/images/obsidian/1b660f125cf97db20d52446ca750a695.png",
+      "sourcePath": "Pasted image 20261018214038.png",
+      "extension": "png",
+      "updatedAt": "2026-10-19 12:17:10"
     },
     "1fe471b005cefdebd5368280eb74b92b3da946fc1b1afa4575d320e55d7d27e3": {
       "sha256": "1fe471b005cefdebd5368280eb74b92b3da946fc1b1afa4575d320e55d7d27e3",
@@ -405,6 +468,13 @@
       "sourcePath": "Pasted image 20260830221904.png",
       "extension": "png",
       "updatedAt": "2026-09-01 13:05:13"
+    },
+    "4670c670eaaf462d33005523d0bf91e0c1159a7fc01509928bd223776ee521b6": {
+      "sha256": "4670c670eaaf462d33005523d0bf91e0c1159a7fc01509928bd223776ee521b6",
+      "remotePath": "assets/images/obsidian/4670c670eaaf462d33005523d0bf91e0.png",
+      "sourcePath": "Pasted image 20261011204633.png",
+      "extension": "png",
+      "updatedAt": "2026-10-19 12:17:10"
     },
     "4a3050fa87d333850c5fe9d1d06c7d6b230a906509d4ae34836174ff7ac52b29": {
       "sha256": "4a3050fa87d333850c5fe9d1d06c7d6b230a906509d4ae34836174ff7ac52b29",
@@ -490,12 +560,26 @@
       "extension": "png",
       "updatedAt": "2026-09-03 17:22:16"
     },
+    "97c10ff4d09a8bfe772133c33ef63c88e244a51e6ca19b1b04d41050b24c89c1": {
+      "sha256": "97c10ff4d09a8bfe772133c33ef63c88e244a51e6ca19b1b04d41050b24c89c1",
+      "remotePath": "assets/images/obsidian/97c10ff4d09a8bfe772133c33ef63c88.png",
+      "sourcePath": "Pasted image 20261011205048.png",
+      "extension": "png",
+      "updatedAt": "2026-10-19 12:17:10"
+    },
     "a54e7fc74b067683318ef5346e760d70ab559036e16798b17714e7b8c9101ae4": {
       "sha256": "a54e7fc74b067683318ef5346e760d70ab559036e16798b17714e7b8c9101ae4",
       "remotePath": "assets/images/obsidian/a54e7fc74b067683318ef5346e760d70.png",
       "sourcePath": "Pasted image 20260830221742.png",
       "extension": "png",
       "updatedAt": "2026-09-01 13:05:13"
+    },
+    "ae86d4b1eac4c084c609f1ec64e70d176404bc37f0e13914cc12f5a73bb9e512": {
+      "sha256": "ae86d4b1eac4c084c609f1ec64e70d176404bc37f0e13914cc12f5a73bb9e512",
+      "remotePath": "assets/images/obsidian/ae86d4b1eac4c084c609f1ec64e70d17.png",
+      "sourcePath": "Pasted image 20261007175310.png",
+      "extension": "png",
+      "updatedAt": "2026-10-19 12:17:10"
     },
     "b0213e6885dccf7a4956cf4280b1a26acec56d97e04618be67603d1e3e3b107e": {
       "sha256": "b0213e6885dccf7a4956cf4280b1a26acec56d97e04618be67603d1e3e3b107e",
@@ -587,6 +671,13 @@
       "sourcePath": "Pasted image 20260830231815.png",
       "extension": "png",
       "updatedAt": "2026-09-27 07:58:33"
+    },
+    "f0e31483efa3473e035732298dab3deb339d5aa6f1579407f595ca67809749a0": {
+      "sha256": "f0e31483efa3473e035732298dab3deb339d5aa6f1579407f595ca67809749a0",
+      "remotePath": "assets/images/obsidian/f0e31483efa3473e035732298dab3deb.png",
+      "sourcePath": "Pasted image 20261006005142.png",
+      "extension": "png",
+      "updatedAt": "2026-10-19 12:17:10"
     },
     "f2e22401d2d8fce74428b2f14556c2c1999e329aab2b333af6583972e726b4fb": {
       "sha256": "f2e22401d2d8fce74428b2f14556c2c1999e329aab2b333af6583972e726b4fb",
