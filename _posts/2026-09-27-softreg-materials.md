@@ -58,6 +58,19 @@ permalink: /zuo-pin-zhan-shi/softreg-materials/
     <div class="project-showcase__architecture">
       <p>应用界面与服务端使用 Next.js、React 和 TypeScript；Supabase 提供用户认证、数据库及私有文件存储，部署运行在 Vercel。文档转换流程使用 Python 和 LibreOffice 处理 PDF。AI 辅助通过用户配置的兼容模型服务完成。</p>
     </div>
+  </section>
+
+  <section class="project-showcase__section" aria-labelledby="softreg-deployment">
+    <h2 id="softreg-deployment">部署与访问</h2>
+    <ol class="project-flow" aria-label="项目部署与访问路径">
+      <li><span class="project-flow__number">01</span><span><strong>Vercel 部署</strong><span>构建并运行 Web 应用</span></span></li>
+      <li><span class="project-flow__number">02</span><span><strong>Cloudflare 接入自定义域名</strong><span>为项目配置专属域名 ipgen.top</span></span></li>
+      <li><span class="project-flow__number">03</span><span><strong>通过项目域名访问</strong><span>原始 Vercel 链接在国内无法直连，因此使用 <a href="https://ipgen.top" target="_blank" rel="noopener noreferrer">ipgen.top</a> 作为访问入口</span></span></li>
+    </ol>
+  </section>
+
+  <section class="project-showcase__section" aria-labelledby="softreg-note">
+    <h2 id="softreg-note">使用说明</h2>
     <aside class="project-showcase__note">
       <p>源码分析和模型生成内容属于辅助信息。系统用于准备申报材料，申请人仍需核对最终文档并自行办理正式登记手续。</p>
     </aside>
