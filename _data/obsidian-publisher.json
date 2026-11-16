@@ -1,7 +1,7 @@
 {
   "version": 1,
   "generatedBy": "obsidian-github-pages-publisher",
-  "updatedAt": "2026-10-19 12:17:10",
+  "updatedAt": "2026-11-16 09:44:12",
   "notes": {
     "论文/AnchorDiff.md": {
       "sourcePath": "论文/AnchorDiff.md",
@@ -213,6 +213,18 @@
       "contentHash": "446344fb44956f3f3970494419ced92f059662db024f13e8fe02ed451cd29134",
       "assetHashes": []
     },
+    "论文/OSMO.md": {
+      "sourcePath": "论文/OSMO.md",
+      "title": "OSMO：开放词汇第一人称连续情绪追踪",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-11-16-osmo.md",
+      "permalink": "/lun-wen-bi-ji/osmo/",
+      "slug": "osmo",
+      "publishedAt": "2026-11-16 09:44:12",
+      "updatedAt": "2026-11-16 09:44:12",
+      "contentHash": "3a7e790ae80dacec4585a0d33eccb62bb669814fe8a0a1711d6a9e40c21ac163",
+      "assetHashes": []
+    },
     "论文/ProxyCLIP.md": {
       "sourcePath": "论文/ProxyCLIP.md",
       "title": "ProxyCLIP",
@@ -226,6 +238,18 @@
       "assetHashes": [
         "ebf44b03bf922e4120e6ea0055b020fb277b29c0b3b7177bfea9bfb2aa924932"
       ]
+    },
+    "论文/RSVP.md": {
+      "sourcePath": "论文/RSVP.md",
+      "title": "RSVP：区域语义保留与视觉原型辅助的 OVSS",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-11-16-rsvp.md",
+      "permalink": "/lun-wen-bi-ji/rsvp/",
+      "slug": "rsvp",
+      "publishedAt": "2026-11-16 09:44:12",
+      "updatedAt": "2026-11-16 09:44:12",
+      "contentHash": "aa2d6c07181e8d95b8e9afb68f1e296f7c11608bf0cb9f098091afcc36cb8740",
+      "assetHashes": []
     },
     "论文/SAM.md": {
       "sourcePath": "论文/SAM.md",
@@ -314,6 +338,18 @@
         "ce89566c9aefc580d1f3852b0cb7818b68d19ab8bdd4eb167b295384734c1dcb",
         "d71cd5eac58107d98b88275d589132711e07c40bad5ab74f5661be72a6a8b9e3"
       ]
+    },
+    "论文/TCC.md": {
+      "sourcePath": "论文/TCC.md",
+      "title": "TCC：测试时对比概念与单类别开放世界分割",
+      "targetId": "paper",
+      "remotePath": "_posts/2026-11-16-tcc.md",
+      "permalink": "/lun-wen-bi-ji/tcc/",
+      "slug": "tcc",
+      "publishedAt": "2026-11-16 09:44:12",
+      "updatedAt": "2026-11-16 09:44:12",
+      "contentHash": "37ec6da5d698c3dcc253fa6aca1d443ea377d5caf2caccc330e8f51cdcd1fa59",
+      "assetHashes": []
     },
     "论文/TextRegion-整理版.md": {
       "sourcePath": "论文/TextRegion-整理版.md",
