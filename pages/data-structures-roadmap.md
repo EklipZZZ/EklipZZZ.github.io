@@ -4,14 +4,21 @@ title: "数据结构与算法：学习路线"
 permalink: "/data-structures-roadmap/"
 ---
 
-<link rel="stylesheet" href="/assets/css/learning-map.css">
-<section class="learning-map">
-  <div class="lm-hero"><div><span class="lm-kicker">C++ / LEARNING MAP</span><h1>数据结构与算法<br><em>学习路线</em></h1><p>一条从线性结构、树到图与算法的学习路径。记录概念、动手实践和每一次打卡。</p><div class="lm-links"><a href="https://github.com/EklipZZZ/data-structures-learning">查看代码仓库 ↗</a><a href="https://kcnnjotuedu2.feishu.cn/base/O0EIbJyyvaXUUnsAElhcZpQOnKv?table=tblBsDIx27VzaoGy&amp;view=vewXuquCn1">飞书原表 ↗</a></div></div><div class="lm-orbit" aria-hidden="true"><span>100</span><small>LEARNING TASKS</small></div></div>
-  <div class="lm-stats"><div><b id="lm-total">100</b><span>学习任务</span></div><div><b id="lm-done">61</b><span>已打卡</span></div><div><b id="lm-remaining">39</b><span>未打卡</span></div><div><b id="lm-modules">10</b><span>学习模块</span></div></div>
-  <p class="lm-caption">根据飞书导出文件生成的学习快照，打卡状态以导出时为准；打卡记录不等同于完整掌握。</p>
-  <div class="lm-controls"><label>搜索任务<input id="lm-search" type="search" placeholder="搜索主题、知识点或题目"></label><label>模块<select id="lm-module"><option value="">全部模块</option></select></label><label>打卡状态<select id="lm-status"><option value="">全部状态</option><option value="done">已打卡</option><option value="todo">未打卡</option></select></label></div>
-  <div class="lm-results"><span>THE ROAD AHEAD</span><span id="lm-count" aria-live="polite">正在加载任务…</span></div>
-  <div id="lm-list" class="lm-list"><p>正在加载学习计划…</p></div>
-  <noscript>请启用 JavaScript 查看完整任务列表。</noscript>
+<style>
+.learning-view { margin: 2rem -2.5rem 1rem; }
+.learning-view-head { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: space-between; align-items: center; margin: 0 2.5rem 1rem; }
+.learning-view-head h1 { margin: 0; }
+.learning-view-head p { margin: .35rem 0 0; color: #6f6c80; font-size: .9rem; }
+.learning-view-link { font-size: .85rem; white-space: nowrap; }
+.learning-view-frame { width: 100%; height: min(78vh, 900px); min-height: 580px; border: 1px solid #e3e0ef; border-radius: 12px; background: #fff; }
+@media (max-width: 700px) { .learning-view { margin: 1rem -1rem; } .learning-view-head { margin: 0 1rem 1rem; } .learning-view-frame { height: 72vh; min-height: 480px; } }
+</style>
+
+<section class="learning-view">
+  <div class="learning-view-head">
+    <div><h1>数据结构与算法学习计划</h1><p>飞书表格视图 · 记录学习与练习</p></div>
+    <a class="learning-view-link" href="https://kcnnjotuedu2.feishu.cn/share/base/view/shrcnZZdt5Yj5fHuI7AjXvI68Kf" target="_blank" rel="noopener noreferrer">在飞书中打开 ↗</a>
+  </div>
+  <iframe class="learning-view-frame" src="https://kcnnjotuedu2.feishu.cn/share/base/view/shrcnZZdt5Yj5fHuI7AjXvI68Kf" title="数据结构与算法学习计划飞书表格" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  <p>如果表格没有显示，可以<a href="https://kcnnjotuedu2.feishu.cn/share/base/view/shrcnZZdt5Yj5fHuI7AjXvI68Kf">直接打开飞书表格</a>。</p>
 </section>
-<script src="/assets/js/learning-map.js" defer></script>
