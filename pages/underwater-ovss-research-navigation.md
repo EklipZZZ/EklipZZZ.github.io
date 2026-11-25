@@ -1,71 +1,54 @@
 ---
 layout: default
-title: "Underwater OVSS 研究导航"
-date: "2026-09-01 13:05:13"
-author: "EklipZ"
+title: "水下开放词汇分割：研究路线"
 permalink: "/lun-wen-bi-ji/underwater-ovss/"
 ---
 
-## 当前研究主线
+# 水下开放词汇分割：研究路线
 
-本项目暂时不把所有方法排成一条“先后执行”的流水线，而是按它们解决的问题分成四层：
+这份导航记录从 **2026 年 8 月至今**的问题、尝试与下一步。水下开放词汇语义分割要做的是：给定一张水下图像和一组文字类别，为图像中的位置分配对应类别。研究重点是理解现有模型何时能可靠地判断目标，何时会把错误传给更多区域。
 
-1. **冻结的预训练模型**：CLIP/OpenCLIP、SigLIP2、几何视觉基础模型以及多模态大语言模型。
-2. **training-free 密集预测方法**：把全局图文表征转化为 patch、区域或像素级预测。
-3. **测试时表征增强**：WaveDN 这类不更新参数、只修正 embedding 的方法。
-4. **研究灵感与训练型方法**：DeCLIP、SynCLIP、FDAM 等可用于提出机制假设和实验变量。
+这里的“免训练”指当前任务中不更新模型参数；使用的 CLIP、DINO 和其他模型本身仍来自预训练。不同实验的模型、数据和评价口径并不完全相同，不能直接把零散结果拼成一个完整方法。
 
-```mermaid
-flowchart LR
-    E2O[Earth2Ocean<br/>GMG + CSA]
-    Region[TextRegion<br/>区域 token]
-    Distribution[WaveDN<br/>DWT + IDWT]
-    Frequency[FDAM<br/>AttInv + FreqScale]
-    Dense[DeCLIP<br/>dense 表征]
-    Prompt[SynCLIP<br/>语义一致性]
+## 2026 年 8 月：从论文阅读到基线复现
 
-    Region --> E2O
-    Distribution --> E2O
-    Frequency -. 机制启发 .-> E2O
-    Dense -. 表征来源 .-> E2O
-    Prompt -. prompt consensus .-> E2O
-```
+阅读 [MaskCLIP](/lun-wen-bi-ji/maskcilp/)、[E2O](/lun-wen-bi-ji/e2o/) 等工作，理解如何把图文模型的全局语义转成位置级类别响应；随后复现 E2O，检查数据读取、类别映射、提示词以及评价流程。
 
-## E2O 与五篇重点材料的关系
+**阶段问题：**水下颜色退化和外观相似会影响文字与图像的匹配；空间传播可以改善预测，也可能把局部错误扩散。复现的作用是建立可比较的起点。
 
-| 材料 | 直接解决的问题 | 核心操作 | 在研究地图中的位置 |
-|---|---|---|---|
-| [E2O-整理版](/lun-wen-bi-ji/e2o/) | 水下域偏移与水下类别语义对齐 | GMG 修正密集视觉特征，CSA 融合水下提示词和 MLLM 语义 | 当前项目主基线 |
-| [TextRegion-整理版](/lun-wen-bi-ji/textregion/) | 全局视觉表征缺少区域级语义 | SAM2/SLIC 区域、mask pooling、多尺度 patch token | 区域级对照与潜在扩展 |
-| [WaveDN-整理版](/lun-wen-bi-ji/wavedn/) | 测试分布与预训练 embedding 不匹配 | DWT、层级修正、IDWT、相似度计算 | 推理时表征增强思路 |
-| [FDAM-整理版](/lun-wen-bi-ji/fdam/) | 深层 Transformer 的频率消失与过平滑 | AttInv 互补高通注意力、FreqScale 动态频谱重加权 | 训练型频率机制来源 |
-| [DeCLIP-整理版](/lun-wen-bi-ji/declip/) | dense feature 的局部判别性与空间一致性不足 | 解耦 context/content，VFM 与 SD-GSC 蒸馏 | dense backbone 机制来源 |
-| [SynCLIP-整理版](/lun-wen-bi-ji/synclip/) | 同义词导致密集空间响应不一致 | SSA 语义对齐、SAR 结合 DINOv2 空间关系 | 推理时 prompt consensus 来源 |
+## 2026 年 9 月：文字语义与空间传播
 
-关键区分：
+围绕类别名称、同义词和属性描述开展对照，并比较不同视觉结构特征在传播中的作用。部分描述改写和传播替换在不同样本上的变化并不稳定；单次结果不能直接当作普遍有效的结论。
 
-- E2O 的 **GMG** 利用几何自相似度修正 CLIP 的密集视觉特征。
-- TextRegion 以区域掩码和区域 token 为核心，E2O 以几何引导的密集特征为核心。
-- WaveDN 的 DWT/IDWT 中间包含系数修正；DWT 和 IDWT 本身负责变换与重构。
-- **SCLIP** 是方法名；**SigLIP2** 是可替换的视觉语言骨干。
+这一阶段逐渐形成的判断是：**文字描述、位置关系和最后的像素解码要分开检查**。某个环节看起来合理，并不保证叠加后更好。相关阅读包括 [SynCLIP](/lun-wen-bi-ji/synclip/)、[TextRegion](/lun-wen-bi-ji/textregion/) 和 [ProxyCLIP](/lun-wen-bi-ji/proxyclip/)。
 
-## 当前笔记入口
+## 2026 年 10 月：从候选区域转向区域判类
 
-- E2O：[E2O-整理版](/lun-wen-bi-ji/e2o/)；水下提示词：[E2O-水下提示词库](/dai-ma-bi-ji/e2o-水下提示词库/)
-- TextRegion：[TextRegion-整理版](/lun-wen-bi-ji/textregion/)
-- WaveDN：[WaveDN-整理版](/lun-wen-bi-ji/wavedn/)
-- FDAM：[FDAM-整理版](/lun-wen-bi-ji/fdam/)；直接对照方法：[MaskCLIP复现](/dai-ma-bi-ji/maskclip无监督分割实战/)、[ProxyCLIP](/lun-wen-bi-ji/proxyclip/)、[SCLIP](/lun-wen-bi-ji/sclip/)、[CorrCLIP](/lun-wen-bi-ji/corrclip/)、[Trident](/lun-wen-bi-ji/trident/)
-- DeCLIP：[DeCLIP-整理版](/lun-wen-bi-ji/declip/)；直接对照方法：[MaskCLIP复现](/dai-ma-bi-ji/maskclip无监督分割实战/)、[SCLIP](/lun-wen-bi-ji/sclip/)、[ClearCLIP](/lun-wen-bi-ji/clearclip/)、[ProxyCLIP](/lun-wen-bi-ji/proxyclip/)
-- SynCLIP：[SynCLIP-整理版](/lun-wen-bi-ji/synclip/)；直接相关方法：[DeCLIP-整理版](/lun-wen-bi-ji/declip/)、DINO
+尝试以点、框和通用分割模型生成候选区域，再比较图块特征、图像裁剪和文本匹配等区域判类方式；也单独探索了 SAM3 的文本与区域路线。
 
-## 维护约定
+分析中发现，**区域是否覆盖目标**与**区域是否被判为正确类别**是两个不同的问题。使用标注做事后诊断可以帮助区分错误来源，但这种诊断不能当成实际预测能力；区域竞争、漏类和误报也需要分别看。
 
-以后每新增一篇 `*-整理版.md`，同步完成三件事：在上表增加一行，在本节增加入口，并只补充论文正文或当前项目明确支持的强相关连接。没有强相关关系时明确写“暂无”，不为了凑网络而添加通用基础模型。
+## 2026 年 11 月：视觉代表、背景与结构
 
-## 证据标记
+在 E2O 基线上，继续比较从图像中选择代表位置、构建类别视觉代表，以及加入水体相关视觉证据的做法。不同数据集和描述来源下存在明显差异：有的改善背景误报，也有出现目标被误删或整体退化的情况，因此仍需同图配对检查。
 
-- **Evidence**：能在论文、补充材料或官方代码中直接定位的事实。
-- **Inference**：由论文公式、模块关系或实验结果作出的合理解释。
-- **Hypothesis**：尚未验证、只用于指导下一步实验的研究假设。
+近期还探索了 DINO 区域、区域表示及空间传播关系。部分区域读出和裁剪对照未优于原参照；借助真实标注干预传播的实验属于**事后机制诊断**，不能当成不使用标注的实际预测效果。具体条件和样本范围仍应回到实验记录核对。
 
-后续每次增加方法或实验时，优先把这三个层次分开，避免把论文作者的动机、我们的解释和已验证结果混成同一个结论。
+## 下一步：把问题拆开验证
+
+下面是待验证的方向，不表示已经连成完整系统：
+
+1. **类别证据是否可靠：**检查文字描述与图像中实际可见内容的对应关系，并比较不同来源的描述是否遗漏真实目标。
+2. **视觉代表是否有帮助：**分别检查选点的正确性、覆盖范围和错点的影响，再比较加入视觉证据前后的预测；特别关注水体误报与目标误删之间的取舍。
+3. **结构信息如何使用：**固定语义输入，比较是否传播、普通邻域传播与视觉结构引导传播，并检查错误是否被扩大。
+4. **评价是否可信：**明确各数据集的类别、背景和忽略值；保留负结果，在匹配条件下与基线比较，并为最终评价保留合适的独立数据。
+
+每次优先改变一个因素，用同一批图片、相同类别与评价口径比较；若效果只在某些数据或条件下出现，就按对应范围报告。
+
+## 延伸阅读
+
+- 基线与密集特征：[E2O](/lun-wen-bi-ji/e2o/) · [ClearCLIP](/lun-wen-bi-ji/clearclip/) · [SCLIP](/lun-wen-bi-ji/sclip/)
+- 区域与结构：[TextRegion](/lun-wen-bi-ji/textregion/) · [GeoSeC](/lun-wen-bi-ji/geosec/) · [SAM](/lun-wen-bi-ji/sam/) · [SAM3](/lun-wen-bi-ji/sam3/)
+- 语义与视觉代表：[SynCLIP](/lun-wen-bi-ji/synclip/) · [RSVP](/lun-wen-bi-ji/rsvp/) · [TCC](/lun-wen-bi-ji/tcc/)
+
+*这是一份公开的阶段性概览，依据截至 2026 年 11 月的阅读与实验记录整理；更详细的配置、样本和结果以各实验记录为准。*
