@@ -4,7 +4,7 @@ title: 代码笔记
 permalink: /dai-ma-bi-ji/
 ---
 
-<h1>💻 代码笔记</h1>
+<h1>代码笔记</h1>
 <p>这里存放我学习过程中整理的代码片段和技巧。</p>
 
 <ul>
@@ -17,5 +17,5 @@ permalink: /dai-ma-bi-ji/
 </ul>
 
 {% if site.categories["代码笔记"].size == 0 %}
-  <p>📭 暂无代码笔记，敬请期待。</p>
+  <p>暂无代码笔记，敬请期待。</p>
 {% endif %}

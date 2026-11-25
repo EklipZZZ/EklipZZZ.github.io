@@ -4,7 +4,7 @@ title: 随想
 permalink: /sui-xiang/
 ---
 
-<h1>💭 随想</h1>
+<h1>随想</h1>
 <p>这里记录我日常的思考、感悟与随笔。</p>
 
 <ul>
@@ -17,5 +17,5 @@ permalink: /sui-xiang/
 </ul>
 
 {% if site.categories["随想"].size == 0 %}
-  <p>📭 暂无随想，敬请期待。</p>
+  <p>暂无随想，敬请期待。</p>
 {% endif %}

@@ -8,7 +8,7 @@ permalink: /lun-wen-bi-ji/
 
 [Underwater OVSS 研究导航](/lun-wen-bi-ji/underwater-ovss/)
 
-<h1>📝 论文笔记</h1>
+<h1>论文笔记</h1>
 <p>这里收录了我阅读和复现的论文笔记。</p>
 
 <ul>
@@ -21,5 +21,5 @@ permalink: /lun-wen-bi-ji/
 </ul>
 
 {% if site.categories["论文笔记"].size == 0 %}
-  <p>📭 暂无论文笔记，敬请期待。</p>
+  <p>暂无论文笔记，敬请期待。</p>
 {% endif %}
