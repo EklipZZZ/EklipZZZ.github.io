@@ -10,6 +10,35 @@ permalink: "/lun-wen-bi-ji/underwater-ovss/"
 
 这里的“免训练”指当前任务中不更新模型参数；使用的 CLIP、DINO 和其他模型本身仍来自预训练。不同实验的模型、数据和评价口径并不完全相同，不能直接把零散结果拼成一个完整方法。
 
+<link rel="stylesheet" href="/assets/css/research-map.css">
+
+<section class="research-map" aria-label="研究历程总览">
+  <div class="map-header"><div><span>RESEARCH JOURNEY / 2026</span><h2>从基线到问题拆解</h2></div><b>01 — 04</b></div>
+  <p class="map-intro">以实验问题为线索，串联每个阶段的探索。</p>
+  <div class="journey-grid">
+    <a href="#2026-年-8-月从论文阅读到基线复现"><small>01 / AUG</small><strong>建立基线</strong><p>论文阅读 → E2O 复现<br>检查数据与评价口径</p><em>语义从哪里来？</em></a>
+    <a href="#2026-年-9-月文字语义与空间传播"><small>02 / SEP</small><strong>语义 × 传播</strong><p>类别表达 · 同义词<br>视觉结构与空间关系</p><em>描述和传播如何影响预测？</em></a>
+    <a href="#2026-年-10-月从候选区域转向区域判类"><small>03 / OCT</small><strong>区域 × 判类</strong><p>点框与分割候选<br>覆盖、分类及区域竞争</p><em>候选有了，类别对吗？</em></a>
+    <a href="#2026-年-11-月视觉代表背景与结构"><small>04 / NOV</small><strong>视觉代表</strong><p>选点 · 前景与水体<br>结构传播及配对比较</p><em>可靠证据怎样利用？</em></a>
+  </div>
+  <div class="map-footer">阶段关联展示研究脉络；具体实验条件以各自记录为准。</div>
+</section>
+
+<section class="research-map research-branches" aria-label="后续研究问题架构图">
+  <div class="map-header"><div><span>QUESTION MAP / NEXT</span><h2>把问题拆开，再逐项验证</h2></div><b>EXPLORING</b></div>
+  <div class="map-root"><small>REFERENCE</small><strong>水下图像 + 类别文本</strong><span>E2O 基线及匹配条件下的预测</span></div>
+  <div class="branch-stem" aria-hidden="true"></div>
+  <div class="branch-grid">
+    <div><small>01 / SEMANTICS</small><strong>类别证据</strong><p>描述是否覆盖可见目标？<br>不同来源是否一致？</p></div>
+    <div><small>02 / PROTOTYPES</small><strong>视觉代表</strong><p>选点是否正确且有覆盖？<br>水体误报与目标误删如何权衡？</p></div>
+    <div><small>03 / STRUCTURE</small><strong>空间传播</strong><p>结构信息如何引导传播？<br>错误是否被进一步放大？</p></div>
+    <div><small>04 / EVALUATION</small><strong>评价与复核</strong><p>类别、背景、忽略值一致吗？<br>同图对照与独立数据能否复现？</p></div>
+  </div>
+  <div class="map-footer">并行的待验证问题，连线表示比较关系，不表示模块已组合成完整方法。</div>
+</section>
+
+<p class="research-csdn">更多同步阅读笔记：<a href="https://blog.csdn.net/2511_93684020">CSDN · VoidLoop0x0 ↗</a></p>
+
 ## 2026 年 8 月：从论文阅读到基线复现
 
 阅读 [MaskCLIP](/lun-wen-bi-ji/maskcilp/)、[E2O](/lun-wen-bi-ji/e2o/) 等工作，理解如何把图文模型的全局语义转成位置级类别响应；随后复现 E2O，检查数据读取、类别映射、提示词以及评价流程。
